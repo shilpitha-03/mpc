@@ -1,2 +1,0 @@
-Invoking command in '/px4_uxrce/camera_ws/build/realsense2_camera_msgs': /usr/bin/cmake /px4_uxrce/camera_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/px4_uxrce/camera_ws/install/realsense2_camera_msgs
-Invoked command in '/px4_uxrce/camera_ws/build/realsense2_camera_msgs' returned '1': /usr/bin/cmake /px4_uxrce/camera_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/px4_uxrce/camera_ws/install/realsense2_camera_msgs

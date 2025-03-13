@@ -1,1 +1,0 @@
-Invoking command in '/px4_uxrce/camera_ws/build/librealsense2': /usr/bin/cmake /px4_uxrce/camera_ws/librealsense -DCMAKE_INSTALL_PREFIX=/px4_uxrce/camera_ws/install/librealsense2
