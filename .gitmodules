@@ -3,10 +3,10 @@
 	url = https://github.com/PX4/PX4-Autopilot.git
 [submodule "new/px4-offboard_ws/src/px4-offboard"]
 	path = new/px4-offboard_ws/src/px4-offboard
-	url = https://github.com/shilpitha-03/px4-offboard.git
+	url = https://github.com/Jaeyoung-Lim/px4-offboard.git
 [submodule "new/px4-offboard_ws/src/px4-mpc"]
 	path = new/px4-offboard_ws/src/px4-mpc
-	url = https://github.com/shilpitha-03/px4-mpc.git
+	url = https://github.com/Jaeyoung-Lim/px4-mpc.git
 [submodule "new/px4-offboard_ws/src/px4_msgs"]
 	path = new/px4-offboard_ws/src/px4_msgs
-	url = https://github.com/shilpitha-03/px4_msgs.git
+	url = https://github.com/PX4/px4_msgs.git
