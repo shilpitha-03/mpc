@@ -1,0 +1,23 @@
+[1.155s] Invoking command in '/px4_uxrce/new/px4-offboard_ws/src/px4-offboard': LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[1.679s] running egg_info
+[1.681s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[1.682s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[1.682s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[1.683s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[1.683s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[1.686s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.687s] adding license file 'LICENSE'
+[1.688s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[1.688s] running build
+[1.689s] running build_py
+[1.691s] running install
+[1.691s] running install_lib
+[1.693s] running install_data
+[1.693s] running install_egg_info
+[1.696s] removing '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info' (and everything under it)
+[1.697s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[1.699s] running install_scripts
+[1.737s] Installing offboard_control script to /px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/px4_offboard
+[1.738s] Installing visualizer script to /px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/px4_offboard
+[1.738s] writing list of installed files to '/px4_uxrce/new/px4-offboard_ws/build/px4_offboard/install.log'
+[1.802s] Invoked command in '/px4_uxrce/new/px4-offboard_ws/src/px4-offboard' returned '0': LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/install.log --single-version-externally-managed install_data

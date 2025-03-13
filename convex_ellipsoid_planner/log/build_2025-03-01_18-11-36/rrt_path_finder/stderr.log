@@ -1,0 +1,190 @@
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/ellipsoid.h:26[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/utils/ellipsoid.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:174: CMakeFiles/new_replan.dir/src/utils/ellipsoid.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/geometry/geometry_utils.h:50[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/utils/geometry_utils.cpp:27[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:132: CMakeFiles/new_replan.dir/src/ciri_ellip.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:188: CMakeFiles/new_replan.dir/src/utils/geometry_utils.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:132: CMakeFiles/rrt_node.dir/src/ciri_ellip.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_sphere.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_sphere.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:146: CMakeFiles/new_replan.dir/src/ciri_sphere.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:118: CMakeFiles/rrt_node.dir/src/ciri.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:118: CMakeFiles/new_replan.dir/src/ciri.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/ellipsoid.h:26[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/utils/ellipsoid.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:174: CMakeFiles/rrt_node.dir/src/utils/ellipsoid.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_sphere.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_sphere.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:146: CMakeFiles/rrt_node.dir/src/ciri_sphere.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:118: CMakeFiles/safe_node.dir/src/ciri.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:118: CMakeFiles/rrt_node_px4.dir/src/ciri.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_sphere.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_sphere.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:146: CMakeFiles/safe_node.dir/src/ciri_sphere.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:132: CMakeFiles/rrt_node_px4.dir/src/ciri_ellip.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:132: CMakeFiles/safe_node.dir/src/ciri_ellip.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_sphere.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_sphere.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:146: CMakeFiles/rrt_node_px4.dir/src/ciri_sphere.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/ellipsoid.h:26[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/utils/ellipsoid.cpp:24[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:174: CMakeFiles/rrt_node_px4.dir/src/utils/ellipsoid.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/geometry/geometry_utils.h:50[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/utils/geometry_utils.cpp:27[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:188: CMakeFiles/rrt_node_px4.dir/src/utils/geometry_utils.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node_safe_replan.cpp:31[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:104: CMakeFiles/safe_node.dir/src/rrt_node_safe_replan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/safe_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node_px4.cpp:25[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:104: CMakeFiles/rrt_node_px4.dir/src/rrt_node_px4.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/rrt_node_px4.dir/all] Error 2
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node_new_replan.cpp:25[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:104: CMakeFiles/new_replan.dir/src/rrt_node_new_replan.cpp.o] Error 1
+In file included from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51[m[K,
+                 from [01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node.cpp:29[m[K:
+[01m[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:247:10:[m[K [01;31m[Kfatal error: [m[Kelfutils/libdw.h: No such file or directory
+  247 | #include [01;31m[K<elfutils/libdw.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/new_replan.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:104: CMakeFiles/rrt_node.dir/src/rrt_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/rrt_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

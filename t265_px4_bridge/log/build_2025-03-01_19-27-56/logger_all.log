@@ -1,0 +1,162 @@
+[0.106s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cpp_pubsub']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cpp_pubsub'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f15d0a27340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f15d0a26cb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f15d0a26cb0>>, mixin_verb=('build',))
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.230s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.231s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.231s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/px4_uxrce/t265_px4_bridge'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/bridge_px4) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bridge_px4' with type 'ros.ament_cmake' and name 'bridge_px4'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/t265_to_px4_bridge) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/t265_to_px4_bridge' with type 'ros.ament_cmake' and name 't265_to_px4_bridge'
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.271s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bridge_px4' in 'src/bridge_px4'
+[0.271s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 't265_to_px4_bridge' in 'src/t265_to_px4_bridge'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub', 'merge_install': False, 'path': '/px4_uxrce/t265_px4_bridge/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.272s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/t265_px4_bridge/src/cpp_pubsub' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/t265_px4_bridge/src/cpp_pubsub'
+[0.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub': CMAKE_PREFIX_PATH=/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client /usr/bin/cmake --build /px4_uxrce/t265_px4_bridge/build/cpp_pubsub -- -j12 -l12
+[9.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client /usr/bin/cmake --build /px4_uxrce/t265_px4_bridge/build/cpp_pubsub -- -j12 -l12
+[9.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub': CMAKE_PREFIX_PATH=/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client /usr/bin/cmake --install /px4_uxrce/t265_px4_bridge/build/cpp_pubsub
+[9.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[9.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client /usr/bin/cmake --install /px4_uxrce/t265_px4_bridge/build/cpp_pubsub
+[9.418s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub' for CMake module files
+[9.419s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub' for CMake config files
+[9.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[9.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[9.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[9.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[9.422s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/lib'
+[9.422s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/bin'
+[9.422s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[9.424s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/lib/python3.10/site-packages'
+[9.424s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/bin'
+[9.424s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[9.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[9.425s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[9.426s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[9.427s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[9.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[9.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[9.428s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub' for CMake module files
+[9.429s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub' for CMake config files
+[9.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[9.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[9.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[9.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[9.430s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/lib'
+[9.430s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/bin'
+[9.431s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[9.431s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/lib/python3.10/site-packages'
+[9.431s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/bin'
+[9.431s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[9.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[9.432s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[9.433s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[9.433s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[9.433s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/t265_px4_bridge/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[9.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.434s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.439s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.441s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[9.441s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/t265_px4_bridge/install/local_setup.ps1'
+[9.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/t265_px4_bridge/install/_local_setup_util_ps1.py'
+[9.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/t265_px4_bridge/install/setup.ps1'
+[9.447s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/t265_px4_bridge/install/local_setup.sh'
+[9.447s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/t265_px4_bridge/install/_local_setup_util_sh.py'
+[9.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/t265_px4_bridge/install/setup.sh'
+[9.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/t265_px4_bridge/install/local_setup.bash'
+[9.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/t265_px4_bridge/install/setup.bash'
+[9.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/t265_px4_bridge/install/local_setup.zsh'
+[9.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/t265_px4_bridge/install/setup.zsh'

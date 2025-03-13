@@ -1,0 +1,2 @@
+Invoking command in '/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge': /usr/bin/cmake /px4_uxrce/t265_px4_bridge/src/t265_to_px4_bridge -DCMAKE_INSTALL_PREFIX=/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge
+Invoked command in '/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge' returned '1': /usr/bin/cmake /px4_uxrce/t265_px4_bridge/src/t265_to_px4_bridge -DCMAKE_INSTALL_PREFIX=/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge

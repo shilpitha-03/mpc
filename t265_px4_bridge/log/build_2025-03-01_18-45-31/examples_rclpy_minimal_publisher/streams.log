@@ -1,0 +1,23 @@
+[2.739s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_publisher/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[3.091s] running egg_info
+[3.093s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.093s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.093s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.093s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.094s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.098s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.100s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.102s] running build
+[3.102s] running build_py
+[3.102s] running install
+[3.113s] running install_lib
+[3.115s] running install_data
+[3.115s] running install_egg_info
+[3.115s] removing '/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.3-py3.10.egg-info' (and everything under it)
+[3.115s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.3-py3.10.egg-info
+[3.116s] running install_scripts
+[3.154s] Installing publisher_local_function script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.154s] Installing publisher_member_function script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.155s] Installing publisher_old_school script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.155s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_publisher/install.log'
+[3.200s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_publisher/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

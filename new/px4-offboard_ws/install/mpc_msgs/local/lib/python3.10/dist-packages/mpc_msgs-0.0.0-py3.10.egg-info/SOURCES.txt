@@ -1,0 +1,8 @@
+setup.py
+mpc_msgs/__init__.py
+mpc_msgs.egg-info/PKG-INFO
+mpc_msgs.egg-info/SOURCES.txt
+mpc_msgs.egg-info/dependency_links.txt
+mpc_msgs.egg-info/top_level.txt
+mpc_msgs/srv/__init__.py
+mpc_msgs/srv/_set_pose.py

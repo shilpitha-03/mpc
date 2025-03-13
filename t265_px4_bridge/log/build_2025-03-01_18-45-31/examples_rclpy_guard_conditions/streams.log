@@ -1,0 +1,21 @@
+[3.104s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/guard_conditions': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_guard_conditions/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data
+[3.465s] running egg_info
+[3.477s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[3.479s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[3.481s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[3.481s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[3.481s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[3.481s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.481s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[3.481s] running build
+[3.481s] running build_py
+[3.482s] running install
+[3.482s] running install_lib
+[3.482s] running install_data
+[3.482s] running install_egg_info
+[3.483s] removing '/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.3-py3.10.egg-info' (and everything under it)
+[3.483s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.15.3-py3.10.egg-info
+[3.483s] running install_scripts
+[3.514s] Installing trigger_guard_condition script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[3.515s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_guard_conditions/install.log'
+[3.550s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_guard_conditions/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data

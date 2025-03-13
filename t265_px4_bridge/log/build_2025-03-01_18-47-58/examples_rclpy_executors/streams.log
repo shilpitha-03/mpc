@@ -1,0 +1,26 @@
+[3.058s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/executors': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[3.418s] running egg_info
+[3.419s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[3.419s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[3.420s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[3.420s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[3.420s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[3.423s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.424s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.424s] running build
+[3.424s] running build_py
+[3.425s] running install
+[3.426s] running install_lib
+[3.429s] running install_data
+[3.429s] running install_egg_info
+[3.432s] removing '/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info' (and everything under it)
+[3.433s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info
+[3.434s] running install_scripts
+[3.467s] Installing callback_group script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.467s] Installing composed script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.467s] Installing custom_callback_group script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.468s] Installing custom_executor script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.468s] Installing listener script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.468s] Installing talker script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.469s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/install.log'
+[3.551s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/executors' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data

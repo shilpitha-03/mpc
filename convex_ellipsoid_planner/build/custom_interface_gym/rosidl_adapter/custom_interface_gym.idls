@@ -1,0 +1,3 @@
+/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym/rosidl_adapter/custom_interface_gym:srv/UavControl.idl
+/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym/rosidl_adapter/custom_interface_gym:msg/TrajMsg.idl
+/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym/rosidl_adapter/custom_interface_gym:msg/DesTrajectory.idl

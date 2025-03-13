@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/CMakeFiles/libcurl"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/CMakeFiles/libcurl.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/CMakeFiles/libcurl-complete.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-build.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-configure.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-download.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-install.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-mkdir.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-patch.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-test.rule"
+		},
+		{
+			"file" : "/px4_uxrce/camera_ws/build/librealsense2/libcurl/src/libcurl-stamp/libcurl-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libcurl"
+		],
+		"name" : "libcurl"
+	}
+}

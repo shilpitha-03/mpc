@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2161c794e2ab7acf7e93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "custom_interface_gym__py",
+					"jsonFile" : "directory-custom_interface_gym__py-847679b793b73cda64e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym/custom_interface_gym__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "custom_interface_gym",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_custom_interface_gym_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_custom_interface_gym_egg-26a3b87dfd042a50e71b.json",
+					"name" : "ament_cmake_python_build_custom_interface_gym_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_custom_interface_gym::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_custom_interface_gym-f974a6f3c1234977dc2d.json",
+					"name" : "ament_cmake_python_copy_custom_interface_gym",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym-deee124f7bf24dfe1540.json",
+					"name" : "custom_interface_gym",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__cpp-7adbfd1dfc8796735d53.json",
+					"name" : "custom_interface_gym__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "custom_interface_gym__py::@5310b798cacdf0b816ed",
+					"jsonFile" : "target-custom_interface_gym__py-0007a52706b11b60490c.json",
+					"name" : "custom_interface_gym__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_generator_c-55734a99cc22937289dd.json",
+					"name" : "custom_interface_gym__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_generator_py-ab3624aa021b15d17c44.json",
+					"name" : "custom_interface_gym__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_c-fc3816717f06f4319a71.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_c__pyext-2caa8a3acd2616248d4e.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_cpp-dd8595fb288606c31c9b.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_fastrtps_c-db938631aa31475f2067.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_fastrtps_c__pyext-007202f4ce821efdd92d.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_fastrtps_cpp-c379973026b304a7b372.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_introspection_c-4f4911bee4de7255d88e.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_introspection_c__pyext-1b6b90bc8a66a1e33715.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym__rosidl_typesupport_introspection_cpp-b8e4ba96c19441028333.json",
+					"name" : "custom_interface_gym__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_interface_gym_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_interface_gym_uninstall-dbbe4a1b4ba935935963.json",
+					"name" : "custom_interface_gym_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c4656cb7adbc53ab778.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym",
+		"source" : "/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

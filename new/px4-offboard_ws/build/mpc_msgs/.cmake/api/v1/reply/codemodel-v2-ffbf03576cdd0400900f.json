@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2d5a12052de70ba340c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mpc_msgs__py",
+					"jsonFile" : "directory-mpc_msgs__py-090a24087b774e63c19c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/px4_uxrce/new/px4-offboard_ws/build/mpc_msgs/mpc_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mpc_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mpc_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mpc_msgs_egg-e0f00cb293df303eb9fa.json",
+					"name" : "ament_cmake_python_build_mpc_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mpc_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mpc_msgs-7d1f31f9c001b5091fe7.json",
+					"name" : "ament_cmake_python_copy_mpc_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs-0db1c3efe8668641eb68.json",
+					"name" : "mpc_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__cpp-b4a9d510c7e3cee6cd00.json",
+					"name" : "mpc_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mpc_msgs__py::@8172dc9f1a7c1aab6629",
+					"jsonFile" : "target-mpc_msgs__py-98f8c7ba55b311bb5270.json",
+					"name" : "mpc_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_generator_c-387c611a656265f0a3cd.json",
+					"name" : "mpc_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_generator_py-db22658042f6132bdfff.json",
+					"name" : "mpc_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_c-5ddbe5e8f7c654b4152d.json",
+					"name" : "mpc_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_c__pyext-1b24234d128a4a7c86ca.json",
+					"name" : "mpc_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_cpp-8dbef0fc22ea08f3a7e5.json",
+					"name" : "mpc_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_fastrtps_c-88758fee9b9f25e91a23.json",
+					"name" : "mpc_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_fastrtps_c__pyext-436c9725a8ca52ac9c5b.json",
+					"name" : "mpc_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_fastrtps_cpp-c34885ba0aaefb6a0f8b.json",
+					"name" : "mpc_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_introspection_c-96853b13e51e4f282cd2.json",
+					"name" : "mpc_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_introspection_c__pyext-e5510f97eaaa244c50cc.json",
+					"name" : "mpc_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs__rosidl_typesupport_introspection_cpp-92896f26e8cafadaf277.json",
+					"name" : "mpc_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_msgs_uninstall-a17a3744b797e77975fc.json",
+					"name" : "mpc_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-32c6a39346d1b9019d7f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/px4_uxrce/new/px4-offboard_ws/build/mpc_msgs",
+		"source" : "/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/mpc_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

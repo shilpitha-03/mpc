@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/clustering_python/clustering_python.egg-info
+writing ../../build/clustering_python/clustering_python.egg-info/PKG-INFO
+writing dependency_links to ../../build/clustering_python/clustering_python.egg-info/dependency_links.txt
+writing entry points to ../../build/clustering_python/clustering_python.egg-info/entry_points.txt
+writing requirements to ../../build/clustering_python/clustering_python.egg-info/requires.txt
+writing top-level names to ../../build/clustering_python/clustering_python.egg-info/top_level.txt
+writing manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+reading manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build
+creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib
+creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+copying clustering_python/clustering_node.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+copying clustering_python/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+copying clustering_python/utils.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+running install
+running install_lib
+creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/clustering_node.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/utils.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/clustering_node.py to clustering_node.cpython-310.pyc
+byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/__init__.py to __init__.cpython-310.pyc
+byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/utils.py to utils.cpython-310.pyc
+running install_data
+creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index
+creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index
+creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index/packages
+copying resource/clustering_python -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index/packages
+copying package.xml -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python
+running install_egg_info
+Copying ../../build/clustering_python/clustering_python.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bounding_box_node script to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/clustering_python
+writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log'

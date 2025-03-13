@@ -1,0 +1,25 @@
+[2.995s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[3.335s] running egg_info
+[3.336s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[3.336s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[3.336s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[3.337s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[3.337s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[3.339s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.341s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[3.342s] running build
+[3.342s] running build_py
+[3.342s] running install
+[3.343s] running install_lib
+[3.347s] running install_data
+[3.347s] running install_egg_info
+[3.350s] removing '/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info' (and everything under it)
+[3.352s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info
+[3.354s] running install_scripts
+[3.402s] Installing server script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.402s] Installing server_defer script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.402s] Installing server_not_composable script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.403s] Installing server_queue_goals script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.403s] Installing server_single_goal script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[3.403s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/install.log'
+[3.463s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+Invoking command in '/px4_uxrce/test_ws/build/t265_to_px4_bridge': /usr/bin/cmake /px4_uxrce/test_ws/src/t265_to_px4_bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/px4_uxrce/test_ws/install/t265_to_px4_bridge
+Invoked command in '/px4_uxrce/test_ws/build/t265_to_px4_bridge' returned '0': /usr/bin/cmake /px4_uxrce/test_ws/src/t265_to_px4_bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/px4_uxrce/test_ws/install/t265_to_px4_bridge
+Invoking command in '/px4_uxrce/test_ws/build/t265_to_px4_bridge': /usr/bin/cmake --build /px4_uxrce/test_ws/build/t265_to_px4_bridge -- -j12 -l12
+Invoked command in '/px4_uxrce/test_ws/build/t265_to_px4_bridge' returned '0': /usr/bin/cmake --build /px4_uxrce/test_ws/build/t265_to_px4_bridge -- -j12 -l12
+Invoking command in '/px4_uxrce/test_ws/build/t265_to_px4_bridge': /usr/bin/cmake --install /px4_uxrce/test_ws/build/t265_to_px4_bridge
+Invoked command in '/px4_uxrce/test_ws/build/t265_to_px4_bridge' returned '0': /usr/bin/cmake --install /px4_uxrce/test_ws/build/t265_to_px4_bridge

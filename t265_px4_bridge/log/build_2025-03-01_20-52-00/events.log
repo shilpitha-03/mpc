@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (-) JobUnselected: {'identifier': 'bridge_px4'}
+[0.000237] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000262] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000281] (-) JobUnselected: {'identifier': 't265_to_px4_bridge'}
+[0.000302] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/px4_uxrce/t265_px4_bridge/install/px4_msgs')])}
+[0.000349] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.012470] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.013102] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '/px4_uxrce/t265_px4_bridge/src/px4_ros_com', '-DCMAKE_INSTALL_PREFIX=/px4_uxrce/t265_px4_bridge/install/px4_ros_com'], 'cwd': '/px4_uxrce/t265_px4_bridge/build/px4_ros_com', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-565b7a35-dbcb-4518-ae0d-66e07edb209b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('AMENT_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/t265_px4_bridge/build/px4_ros_com'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4')]), 'shell': False}
+[0.083237] (px4_ros_com) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099425] (-) TimerEvent: {}
+[0.135162] (px4_ros_com) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.142692] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199486] (-) TimerEvent: {}
+[0.203227] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.215595] (px4_ros_com) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.215892] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.216402] (px4_ros_com) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.220331] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.296195] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299557] (-) TimerEvent: {}
+[0.308414] (px4_ros_com) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.308688] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.309294] (px4_ros_com) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.312313] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399646] (-) TimerEvent: {}
+[0.465593] (px4_ros_com) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499743] (-) TimerEvent: {}
+[0.574859] (px4_ros_com) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.599846] (-) TimerEvent: {}
+[0.613643] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.620291] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.630831] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.646917] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.667464] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.686851] (px4_ros_com) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.696770] (px4_ros_com) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.698824] (px4_ros_com) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.699910] (-) TimerEvent: {}
+[0.730311] (px4_ros_com) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/px4_uxrce/t265_px4_bridge/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.745012] (px4_ros_com) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.793457] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.798664] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.799983] (-) TimerEvent: {}
+[0.887191] (px4_ros_com) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900092] (-) TimerEvent: {}
+[0.918132] (px4_ros_com) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.968681] (px4_ros_com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.980199] (px4_ros_com) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000191] (-) TimerEvent: {}
+[1.042912] (px4_ros_com) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.043125] (px4_ros_com) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100285] (-) TimerEvent: {}
+[1.109737] (px4_ros_com) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.111314] (px4_ros_com) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.170016] (px4_ros_com) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.193624] (px4_ros_com) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.200382] (-) TimerEvent: {}
+[1.208098] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.300469] (-) TimerEvent: {}
+[1.326810] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.330834] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.331321] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /px4_uxrce/t265_px4_bridge/src/px4_ros_com/include;$<BUILD_INTERFACE:/px4_uxrce/t265_px4_bridge/src/px4_ros_com/include/px4_ros_com>\n'}
+[1.331445] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.334678] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.334791] (px4_ros_com) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.335666] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.338339] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.338592] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.342160] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.342484] (px4_ros_com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.343471] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.346758] (px4_ros_com) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.372147] (px4_ros_com) StdoutLine: {'line': b'-- Generating done\n'}
+[1.383451] (px4_ros_com) StdoutLine: {'line': b'-- Build files have been written to: /px4_uxrce/t265_px4_bridge/build/px4_ros_com\n'}
+[1.393856] (px4_ros_com) CommandEnded: {'returncode': 0}
+[1.394480] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[1.395592] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/px4_uxrce/t265_px4_bridge/build/px4_ros_com', '--', '-j12', '-l12'], 'cwd': '/px4_uxrce/t265_px4_bridge/build/px4_ros_com', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-565b7a35-dbcb-4518-ae0d-66e07edb209b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('AMENT_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/t265_px4_bridge/build/px4_ros_com'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4')]), 'shell': False}
+[1.400557] (-) TimerEvent: {}
+[1.446434] (px4_ros_com) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o\x1b[0m\n'}
+[1.447113] (px4_ros_com) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o\x1b[0m\n'}
+[1.449610] (px4_ros_com) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o\x1b[0m\n'}
+[1.449890] (px4_ros_com) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o\x1b[0m\n'}
+[1.450342] (px4_ros_com) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o\x1b[0m\n'}
+[1.464446] (px4_ros_com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o\x1b[0m\n'}
+[1.465030] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_px4_ros_com\n'}
+[1.500655] (-) TimerEvent: {}
+[1.604742] (-) TimerEvent: {}
+[1.705033] (-) TimerEvent: {}
+[1.805574] (-) TimerEvent: {}
+[1.827698] (px4_ros_com) StdoutLine: {'line': b'running egg_info\n'}
+[1.828751] (px4_ros_com) StdoutLine: {'line': b'creating px4_ros_com.egg-info\n'}
+[1.829259] (px4_ros_com) StdoutLine: {'line': b'writing px4_ros_com.egg-info/PKG-INFO\n'}
+[1.829424] (px4_ros_com) StdoutLine: {'line': b'writing dependency_links to px4_ros_com.egg-info/dependency_links.txt\n'}
+[1.829820] (px4_ros_com) StdoutLine: {'line': b'writing top-level names to px4_ros_com.egg-info/top_level.txt\n'}
+[1.829952] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[1.833508] (px4_ros_com) StdoutLine: {'line': b"reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[1.833738] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[1.877983] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_px4_ros_com_egg\n'}
+[1.905684] (-) TimerEvent: {}
+[2.006079] (-) TimerEvent: {}
+[2.106411] (-) TimerEvent: {}
+[2.206726] (-) TimerEvent: {}
+[2.307038] (-) TimerEvent: {}
+[2.407333] (-) TimerEvent: {}
+[2.507664] (-) TimerEvent: {}
+[2.608278] (-) TimerEvent: {}
+[2.708595] (-) TimerEvent: {}
+[2.808906] (-) TimerEvent: {}
+[2.909228] (-) TimerEvent: {}
+[3.009553] (-) TimerEvent: {}
+[3.109872] (-) TimerEvent: {}
+[3.210192] (-) TimerEvent: {}
+[3.310509] (-) TimerEvent: {}
+[3.411013] (-) TimerEvent: {}
+[3.511339] (-) TimerEvent: {}
+[3.611801] (-) TimerEvent: {}
+[3.712114] (-) TimerEvent: {}
+[3.812437] (-) TimerEvent: {}
+[3.912761] (-) TimerEvent: {}
+[4.013244] (-) TimerEvent: {}
+[4.113655] (-) TimerEvent: {}
+[4.215504] (-) TimerEvent: {}
+[4.315827] (-) TimerEvent: {}
+[4.416144] (-) TimerEvent: {}
+[4.516462] (-) TimerEvent: {}
+[4.616787] (-) TimerEvent: {}
+[4.717116] (-) TimerEvent: {}
+[4.819719] (-) TimerEvent: {}
+[4.920121] (-) TimerEvent: {}
+[5.020448] (-) TimerEvent: {}
+[5.120762] (-) TimerEvent: {}
+[5.222178] (-) TimerEvent: {}
+[5.322536] (-) TimerEvent: {}
+[5.422876] (-) TimerEvent: {}
+[5.523209] (-) TimerEvent: {}
+[5.623503] (-) TimerEvent: {}
+[5.723824] (-) TimerEvent: {}
+[5.824137] (-) TimerEvent: {}
+[5.924461] (-) TimerEvent: {}
+[6.024903] (-) TimerEvent: {}
+[6.125244] (-) TimerEvent: {}
+[6.225831] (-) TimerEvent: {}
+[6.326256] (-) TimerEvent: {}
+[6.426824] (-) TimerEvent: {}
+[6.527150] (-) TimerEvent: {}
+[6.627503] (-) TimerEvent: {}
+[6.727842] (-) TimerEvent: {}
+[6.828537] (-) TimerEvent: {}
+[6.928977] (-) TimerEvent: {}
+[7.029317] (-) TimerEvent: {}
+[7.129969] (-) TimerEvent: {}
+[7.230283] (-) TimerEvent: {}
+[7.330963] (-) TimerEvent: {}
+[7.431276] (-) TimerEvent: {}
+[7.531595] (-) TimerEvent: {}
+[7.634350] (-) TimerEvent: {}
+[7.684801] (px4_ros_com) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable debug_vect_advertiser\x1b[0m\n'}
+[7.734453] (-) TimerEvent: {}
+[7.834770] (-) TimerEvent: {}
+[7.935262] (-) TimerEvent: {}
+[7.939829] (px4_ros_com) StdoutLine: {'line': b'[ 58%] Built target debug_vect_advertiser\n'}
+[8.035368] (-) TimerEvent: {}
+[8.135692] (-) TimerEvent: {}
+[8.167330] (px4_ros_com) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable offboard_control\x1b[0m\n'}
+[8.235807] (-) TimerEvent: {}
+[8.336255] (-) TimerEvent: {}
+[8.420522] (px4_ros_com) StdoutLine: {'line': b'[ 66%] Built target offboard_control\n'}
+[8.436341] (-) TimerEvent: {}
+[8.536609] (-) TimerEvent: {}
+[8.636842] (-) TimerEvent: {}
+[8.737098] (-) TimerEvent: {}
+[8.837338] (-) TimerEvent: {}
+[8.937641] (-) TimerEvent: {}
+[9.037924] (-) TimerEvent: {}
+[9.107783] (px4_ros_com) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable offboard_control_srv\x1b[0m\n'}
+[9.138040] (-) TimerEvent: {}
+[9.238359] (-) TimerEvent: {}
+[9.338659] (-) TimerEvent: {}
+[9.435021] (px4_ros_com) StdoutLine: {'line': b'[ 75%] Built target offboard_control_srv\n'}
+[9.438772] (-) TimerEvent: {}
+[9.539095] (-) TimerEvent: {}
+[9.639414] (-) TimerEvent: {}
+[9.739792] (-) TimerEvent: {}
+[9.840157] (-) TimerEvent: {}
+[9.940483] (-) TimerEvent: {}
+[10.041034] (-) TimerEvent: {}
+[10.142387] (-) TimerEvent: {}
+[10.243098] (-) TimerEvent: {}
+[10.343512] (-) TimerEvent: {}
+[10.443876] (-) TimerEvent: {}
+[10.544178] (-) TimerEvent: {}
+[10.644456] (-) TimerEvent: {}
+[10.735318] (px4_ros_com) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libframe_transforms.so\x1b[0m\n'}
+[10.744564] (-) TimerEvent: {}
+[10.844870] (-) TimerEvent: {}
+[10.945175] (-) TimerEvent: {}
+[11.018363] (px4_ros_com) StdoutLine: {'line': b'[ 83%] Built target frame_transforms\n'}
+[11.045291] (-) TimerEvent: {}
+[11.145624] (-) TimerEvent: {}
+[11.245937] (-) TimerEvent: {}
+[11.346250] (-) TimerEvent: {}
+[11.446550] (-) TimerEvent: {}
+[11.546805] (-) TimerEvent: {}
+[11.647078] (-) TimerEvent: {}
+[11.747399] (-) TimerEvent: {}
+[11.847709] (-) TimerEvent: {}
+[11.947998] (-) TimerEvent: {}
+[12.048323] (-) TimerEvent: {}
+[12.148640] (-) TimerEvent: {}
+[12.248916] (-) TimerEvent: {}
+[12.304646] (px4_ros_com) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable sensor_combined_listener\x1b[0m\n'}
+[12.349008] (-) TimerEvent: {}
+[12.386808] (px4_ros_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vehicle_gps_position_listener\x1b[0m\n'}
+[12.449141] (-) TimerEvent: {}
+[12.549407] (-) TimerEvent: {}
+[12.649645] (-) TimerEvent: {}
+[12.748866] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target vehicle_gps_position_listener\n'}
+[12.749710] (-) TimerEvent: {}
+[12.800873] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target sensor_combined_listener\n'}
+[12.810455] (px4_ros_com) CommandEnded: {'returncode': 0}
+[12.811015] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[12.818827] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/px4_uxrce/t265_px4_bridge/build/px4_ros_com'], 'cwd': '/px4_uxrce/t265_px4_bridge/build/px4_ros_com', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-565b7a35-dbcb-4518-ae0d-66e07edb209b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('AMENT_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/t265_px4_bridge/build/px4_ros_com'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4')]), 'shell': False}
+[12.826101] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.826342] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[12.828763] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""\n'}
+[12.828943] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[12.831201] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""\n'}
+[12.831362] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[12.832303] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""\n'}
+[12.832496] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[12.833560] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""\n'}
+[12.833714] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv\n'}
+[12.835066] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""\n'}
+[12.835247] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[12.835470] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[12.835632] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/include/px4_ros_com\n'}
+[12.835783] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[12.835904] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[12.838896] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/libframe_transforms.so" to ""\n'}
+[12.839123] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//launch\n'}
+[12.839288] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[12.839445] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[12.839598] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//test\n'}
+[12.839760] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[12.839900] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[12.840060] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[12.840213] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[12.840369] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh\n'}
+[12.840504] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv\n'}
+[12.840620] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info\n'}
+[12.840737] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.840868] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[12.840990] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[12.841106] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.841221] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com\n'}
+[12.841336] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py\n'}
+[12.841450] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py\n'}
+[12.849813] (-) TimerEvent: {}
+[12.878616] (px4_ros_com) StdoutLine: {'line': b"Listing '/px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...\n"}
+[12.878828] (px4_ros_com) StdoutLine: {'line': b"Compiling '/px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...\n"}
+[12.878961] (px4_ros_com) StdoutLine: {'line': b"Compiling '/px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...\n"}
+[12.883536] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib/px4_ros_com/offboard_control.py\n'}
+[12.883790] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[12.883976] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[12.884136] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[12.884282] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[12.884425] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[12.884571] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[12.884706] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[12.884860] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[12.885004] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[12.885148] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[12.885267] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[12.885439] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[12.885632] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[12.885833] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake\n'}
+[12.885991] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.886153] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.886299] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.886432] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.886572] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[12.886692] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[12.886792] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /px4_uxrce/t265_px4_bridge/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[12.888978] (px4_ros_com) CommandEnded: {'returncode': 0}
+[12.921400] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[12.922054] (-) EventReactorShutdown: {}

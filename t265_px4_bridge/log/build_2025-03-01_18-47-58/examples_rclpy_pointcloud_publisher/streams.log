@@ -1,0 +1,21 @@
+[2.954s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/topics/pointcloud_publisher': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_pointcloud_publisher/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed install_data
+[3.359s] running egg_info
+[3.359s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[3.359s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[3.359s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[3.359s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[3.360s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[3.360s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[3.362s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[3.362s] running build
+[3.362s] running build_py
+[3.362s] running install
+[3.362s] running install_lib
+[3.365s] running install_data
+[3.366s] running install_egg_info
+[3.371s] removing '/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.15.3-py3.10.egg-info' (and everything under it)
+[3.375s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.15.3-py3.10.egg-info
+[3.381s] running install_scripts
+[3.416s] Installing pointcloud_publisher script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[3.417s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_pointcloud_publisher/install.log'
+[3.500s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/topics/pointcloud_publisher' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_pointcloud_publisher/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed install_data

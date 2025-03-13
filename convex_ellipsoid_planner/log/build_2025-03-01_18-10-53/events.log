@@ -1,0 +1,295 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (-) JobUnselected: {'identifier': 'clustering_python'}
+[0.000908] (-) JobUnselected: {'identifier': 'custom_interface_gym'}
+[0.000952] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000982] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.001008] (-) JobUnselected: {'identifier': 'ros2_gym_pybullet_drones'}
+[0.001165] (-) JobUnselected: {'identifier': 'rrt_python_gym'}
+[0.001246] (rrt_path_finder) JobQueued: {'identifier': 'rrt_path_finder', 'dependencies': OrderedDict()}
+[0.001276] (rrt_path_finder) JobStarted: {'identifier': 'rrt_path_finder'}
+[0.008662] (rrt_path_finder) JobProgress: {'identifier': 'rrt_path_finder', 'progress': 'cmake'}
+[0.042224] (rrt_path_finder) JobProgress: {'identifier': 'rrt_path_finder', 'progress': 'build'}
+[0.043103] (rrt_path_finder) Command: {'cmd': ['/usr/bin/cmake', '--build', '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder', '--', '-j12', '-l12'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('ROS_PACKAGE_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/share'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c8ceeb04-de18-4436-a2ad-d16f59e597cc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-256042c3-5327-4194-9db6-5670d0ae3a58.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/x86_64-linux-gnu/pkgconfig:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-256042c3-5327-4194-9db6-5670d0ae3a58.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-256042c3-5327-4194-9db6-5670d0ae3a58.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge')]), 'shell': False}
+[0.082721] (rrt_path_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rrt_node_px4\x1b[0m\n'}
+[0.083314] (rrt_path_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pcd_manipulation\x1b[0m\n'}
+[0.084396] (rrt_path_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trajectory_server_px4\x1b[0m\n'}
+[0.084904] (rrt_path_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rrt_node\x1b[0m\n'}
+[0.086952] (rrt_path_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target new_replan\x1b[0m\n'}
+[0.087077] (rrt_path_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pointcloud_transformer\x1b[0m\n'}
+[0.087186] (rrt_path_finder) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target safe_node\x1b[0m\n'}
+[0.100010] (-) TimerEvent: {}
+[0.114681] (rrt_path_finder) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node_px4.dir/src/rrt_node_px4.cpp.o\x1b[0m\n'}
+[0.114974] (rrt_path_finder) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node_px4.dir/src/ciri.cpp.o\x1b[0m\n'}
+[0.118510] (rrt_path_finder) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node_px4.dir/src/ciri_ellip.cpp.o\x1b[0m\n'}
+[0.120436] (rrt_path_finder) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node_px4.dir/src/ciri_sphere.cpp.o\x1b[0m\n'}
+[0.120652] (rrt_path_finder) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node_px4.dir/src/utils/ellipsoid.cpp.o\x1b[0m\n'}
+[0.121968] (rrt_path_finder) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node_px4.dir/src/utils/banded_system.cpp.o\x1b[0m\n'}
+[0.122831] (rrt_path_finder) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/new_replan.dir/src/rrt_node_new_replan.cpp.o\x1b[0m\n'}
+[0.123029] (rrt_path_finder) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt_node.cpp.o\x1b[0m\n'}
+[0.126607] (rrt_path_finder) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_server_px4.dir/src/trajectory_server_px4.cpp.o\x1b[0m\n'}
+[0.126818] (rrt_path_finder) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/safe_node.dir/src/rrt_node_safe_replan.cpp.o\x1b[0m\n'}
+[0.140366] (rrt_path_finder) StdoutLine: {'line': b'[ 13%] Built target pointcloud_transformer\n'}
+[0.183017] (rrt_path_finder) StdoutLine: {'line': b'[ 16%] Built target pcd_manipulation\n'}
+[0.195675] (rrt_path_finder) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/new_replan.dir/src/ciri.cpp.o\x1b[0m\n'}
+[0.206950] (-) TimerEvent: {}
+[0.217995] (rrt_path_finder) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/new_replan.dir/src/ciri_ellip.cpp.o\x1b[0m\n'}
+[0.307055] (-) TimerEvent: {}
+[0.407538] (-) TimerEvent: {}
+[0.507847] (-) TimerEvent: {}
+[0.608286] (-) TimerEvent: {}
+[0.670748] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[0.671080] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[0.671221] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51\x1b[m\x1b[K,\n'}
+[0.671323] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24\x1b[m\x1b[K:\n'}
+[0.671424] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[0.671529] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[0.671657] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.671758] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[0.683586] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:118: CMakeFiles/rrt_node_px4.dir/src/ciri.cpp.o] Error 1\n'}
+[0.683822] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.708384] (-) TimerEvent: {}
+[0.720000] (rrt_path_finder) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/ciri.cpp.o\x1b[0m\n'}
+[0.720356] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[0.720488] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/ellipsoid.h:26\x1b[m\x1b[K,\n'}
+[0.720594] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/utils/ellipsoid.cpp:24\x1b[m\x1b[K:\n'}
+[0.720694] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[0.720796] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[0.720896] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.720994] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[0.725346] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:174: CMakeFiles/rrt_node_px4.dir/src/utils/ellipsoid.cpp.o] Error 1\n'}
+[0.752771] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[0.752993] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[0.753108] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51\x1b[m\x1b[K,\n'}
+[0.753216] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24\x1b[m\x1b[K:\n'}
+[0.753328] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[0.753438] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[0.753537] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.753636] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[0.757034] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:132: CMakeFiles/new_replan.dir/src/ciri_ellip.cpp.o] Error 1\n'}
+[0.757266] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.767431] (rrt_path_finder) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/safe_node.dir/src/ciri_ellip.cpp.o\x1b[0m\n'}
+[0.770552] (rrt_path_finder) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/safe_node.dir/src/ciri.cpp.o\x1b[0m\n'}
+[0.808483] (-) TimerEvent: {}
+[0.840709] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[0.840924] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[0.841053] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_sphere.h:51\x1b[m\x1b[K,\n'}
+[0.841174] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_sphere.cpp:24\x1b[m\x1b[K:\n'}
+[0.841294] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[0.841415] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[0.841534] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.841650] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[0.851299] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:146: CMakeFiles/rrt_node_px4.dir/src/ciri_sphere.cpp.o] Error 1\n'}
+[0.890483] (rrt_path_finder) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/safe_node.dir/src/ciri_sphere.cpp.o\x1b[0m\n'}
+[0.908589] (-) TimerEvent: {}
+[0.919712] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[0.919957] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[0.920098] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51\x1b[m\x1b[K,\n'}
+[0.920228] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24\x1b[m\x1b[K:\n'}
+[0.920374] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[0.920508] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[0.920635] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.935033] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[0.935834] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[0.936068] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[0.936206] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51\x1b[m\x1b[K,\n'}
+[0.936338] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24\x1b[m\x1b[K:\n'}
+[0.936476] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[0.936598] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[0.936706] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.936836] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[0.940633] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:132: CMakeFiles/rrt_node_px4.dir/src/ciri_ellip.cpp.o] Error 1\n'}
+[0.940965] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:118: CMakeFiles/new_replan.dir/src/ciri.cpp.o] Error 1\n'}
+[0.979635] (rrt_path_finder) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/safe_node.dir/src/utils/banded_system.cpp.o\x1b[0m\n'}
+[1.008691] (-) TimerEvent: {}
+[1.009539] (rrt_path_finder) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/ciri_ellip.cpp.o\x1b[0m\n'}
+[1.108792] (-) TimerEvent: {}
+[1.209104] (-) TimerEvent: {}
+[1.261280] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[1.261482] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[1.261596] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51\x1b[m\x1b[K,\n'}
+[1.261700] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24\x1b[m\x1b[K:\n'}
+[1.261807] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[1.261908] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[1.262007] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.262104] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[1.273308] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:132: CMakeFiles/safe_node.dir/src/ciri_ellip.cpp.o] Error 1\n'}
+[1.273504] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.297490] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[1.297750] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[1.297922] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51\x1b[m\x1b[K,\n'}
+[1.298074] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24\x1b[m\x1b[K:\n'}
+[1.298223] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[1.298372] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[1.298526] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.298710] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[1.303313] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:118: CMakeFiles/safe_node.dir/src/ciri.cpp.o] Error 1\n'}
+[1.309200] (-) TimerEvent: {}
+[1.311500] (rrt_path_finder) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/utils/banded_system.cpp.o\x1b[0m\n'}
+[1.319335] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[1.319626] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[1.319731] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51\x1b[m\x1b[K,\n'}
+[1.319823] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri.cpp:24\x1b[m\x1b[K:\n'}
+[1.319915] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[1.320008] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[1.320096] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.320216] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[1.322536] (rrt_path_finder) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/ciri_sphere.cpp.o\x1b[0m\n'}
+[1.325119] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:118: CMakeFiles/rrt_node.dir/src/ciri.cpp.o] Error 1\n'}
+[1.325333] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.409300] (-) TimerEvent: {}
+[1.475643] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[1.475845] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[1.475950] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_sphere.h:51\x1b[m\x1b[K,\n'}
+[1.476053] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_sphere.cpp:24\x1b[m\x1b[K:\n'}
+[1.476154] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[1.476262] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[1.476359] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.476452] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[1.487581] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:146: CMakeFiles/safe_node.dir/src/ciri_sphere.cpp.o] Error 1\n'}
+[1.509401] (-) TimerEvent: {}
+[1.564366] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[1.564689] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[1.564814] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_ellip.h:51\x1b[m\x1b[K,\n'}
+[1.564929] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_ellip.cpp:24\x1b[m\x1b[K:\n'}
+[1.565036] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[1.565146] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[1.565254] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.565361] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[1.569517] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:132: CMakeFiles/rrt_node.dir/src/ciri_ellip.cpp.o] Error 1\n'}
+[1.609500] (-) TimerEvent: {}
+[1.709783] (-) TimerEvent: {}
+[1.804261] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[1.804527] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[1.804699] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri_sphere.h:51\x1b[m\x1b[K,\n'}
+[1.804862] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/ciri_sphere.cpp:24\x1b[m\x1b[K:\n'}
+[1.805023] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[1.805186] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[1.805347] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.805538] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[1.809877] (-) TimerEvent: {}
+[1.817914] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:146: CMakeFiles/rrt_node.dir/src/ciri_sphere.cpp.o] Error 1\n'}
+[1.909989] (-) TimerEvent: {}
+[2.010282] (-) TimerEvent: {}
+[2.110578] (-) TimerEvent: {}
+[2.210876] (-) TimerEvent: {}
+[2.311216] (-) TimerEvent: {}
+[2.411523] (-) TimerEvent: {}
+[2.511853] (-) TimerEvent: {}
+[2.612181] (-) TimerEvent: {}
+[2.712524] (-) TimerEvent: {}
+[2.812862] (-) TimerEvent: {}
+[2.844603] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[2.844835] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node_new_replan.cpp:25\x1b[m\x1b[K:\n'}
+[2.844970] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[2.845096] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[2.845217] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.845338] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[2.866454] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/new_replan.dir/build.make:104: CMakeFiles/new_replan.dir/src/rrt_node_new_replan.cpp.o] Error 1\n'}
+[2.866733] (rrt_path_finder) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/new_replan.dir/all] Error 2\n'}
+[2.866870] (rrt_path_finder) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.912948] (-) TimerEvent: {}
+[2.982022] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[2.982275] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node_px4.cpp:25\x1b[m\x1b[K:\n'}
+[2.982406] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[2.982537] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[2.982655] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.982777] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[3.003562] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node_px4.dir/build.make:104: CMakeFiles/rrt_node_px4.dir/src/rrt_node_px4.cpp.o] Error 1\n'}
+[3.003811] (rrt_path_finder) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/rrt_node_px4.dir/all] Error 2\n'}
+[3.013053] (-) TimerEvent: {}
+[3.113353] (-) TimerEvent: {}
+[3.145987] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[3.146200] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[3.146312] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51\x1b[m\x1b[K,\n'}
+[3.146415] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node.cpp:29\x1b[m\x1b[K:\n'}
+[3.146515] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[3.146613] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[3.146708] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.146805] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[3.149784] (rrt_path_finder) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/type_utils.hpp:30\x1b[m\x1b[K,\n'}
+[3.150007] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../data_structure/base/polytope.h:27\x1b[m\x1b[K,\n'}
+[3.150124] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/rrt_path_finder/ciri.h:51\x1b[m\x1b[K,\n'}
+[3.150231] (rrt_path_finder) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/src/rrt_node_safe_replan.cpp:31\x1b[m\x1b[K:\n'}
+[3.150336] (rrt_path_finder) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder/include/../utils/header/backward.hpp:246:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdwarf.h: No such file or directory\n'}
+[3.150448] (rrt_path_finder) StderrLine: {'line': b'  246 | #include \x1b[01;31m\x1b[K<dwarf.h>\x1b[m\x1b[K\n'}
+[3.150549] (rrt_path_finder) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.150649] (rrt_path_finder) StderrLine: {'line': b'compilation terminated.\n'}
+[3.173439] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rrt_node.dir/build.make:104: CMakeFiles/rrt_node.dir/src/rrt_node.cpp.o] Error 1\n'}
+[3.173612] (rrt_path_finder) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/safe_node.dir/build.make:104: CMakeFiles/safe_node.dir/src/rrt_node_safe_replan.cpp.o] Error 1\n'}
+[3.173711] (rrt_path_finder) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/safe_node.dir/all] Error 2\n'}
+[3.213439] (-) TimerEvent: {}
+[3.247710] (rrt_path_finder) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:149: CMakeFiles/rrt_node.dir/all] Error 2\n'}
+[3.313537] (-) TimerEvent: {}
+[3.413820] (-) TimerEvent: {}
+[3.514217] (-) TimerEvent: {}
+[3.614473] (-) TimerEvent: {}
+[3.714712] (-) TimerEvent: {}
+[3.815019] (-) TimerEvent: {}
+[3.915300] (-) TimerEvent: {}
+[4.015588] (-) TimerEvent: {}
+[4.115889] (-) TimerEvent: {}
+[4.216200] (-) TimerEvent: {}
+[4.316505] (-) TimerEvent: {}
+[4.416805] (-) TimerEvent: {}
+[4.517160] (-) TimerEvent: {}
+[4.617427] (-) TimerEvent: {}
+[4.717720] (-) TimerEvent: {}
+[4.817971] (-) TimerEvent: {}
+[4.918228] (-) TimerEvent: {}
+[5.018539] (-) TimerEvent: {}
+[5.118815] (-) TimerEvent: {}
+[5.219100] (-) TimerEvent: {}
+[5.319374] (-) TimerEvent: {}
+[5.419630] (-) TimerEvent: {}
+[5.519883] (-) TimerEvent: {}
+[5.620135] (-) TimerEvent: {}
+[5.720377] (-) TimerEvent: {}
+[5.820629] (-) TimerEvent: {}
+[5.920932] (-) TimerEvent: {}
+[6.021186] (-) TimerEvent: {}
+[6.121475] (-) TimerEvent: {}
+[6.221747] (-) TimerEvent: {}
+[6.321995] (-) TimerEvent: {}
+[6.422280] (-) TimerEvent: {}
+[6.522502] (-) TimerEvent: {}
+[6.622734] (-) TimerEvent: {}
+[6.723037] (-) TimerEvent: {}
+[6.823292] (-) TimerEvent: {}
+[6.923541] (-) TimerEvent: {}
+[7.023810] (-) TimerEvent: {}
+[7.124091] (-) TimerEvent: {}
+[7.224357] (-) TimerEvent: {}
+[7.324648] (-) TimerEvent: {}
+[7.424917] (-) TimerEvent: {}
+[7.525180] (-) TimerEvent: {}
+[7.625468] (-) TimerEvent: {}
+[7.725738] (-) TimerEvent: {}
+[7.825994] (-) TimerEvent: {}
+[7.926278] (-) TimerEvent: {}
+[8.026552] (-) TimerEvent: {}
+[8.126823] (-) TimerEvent: {}
+[8.227175] (-) TimerEvent: {}
+[8.327452] (-) TimerEvent: {}
+[8.427758] (-) TimerEvent: {}
+[8.528032] (-) TimerEvent: {}
+[8.628309] (-) TimerEvent: {}
+[8.728573] (-) TimerEvent: {}
+[8.828851] (-) TimerEvent: {}
+[8.929161] (-) TimerEvent: {}
+[9.029466] (-) TimerEvent: {}
+[9.129747] (-) TimerEvent: {}
+[9.230019] (-) TimerEvent: {}
+[9.312973] (rrt_path_finder) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX executable trajectory_server_px4\x1b[0m\n'}
+[9.330124] (-) TimerEvent: {}
+[9.430402] (-) TimerEvent: {}
+[9.530697] (-) TimerEvent: {}
+[9.630956] (-) TimerEvent: {}
+[9.731246] (-) TimerEvent: {}
+[9.831505] (-) TimerEvent: {}
+[9.931811] (-) TimerEvent: {}
+[10.032070] (-) TimerEvent: {}
+[10.033704] (rrt_path_finder) StdoutLine: {'line': b'[ 29%] Built target trajectory_server_px4\n'}
+[10.034783] (rrt_path_finder) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.036741] (rrt_path_finder) CommandEnded: {'returncode': 2}
+[10.051353] (rrt_path_finder) JobEnded: {'identifier': 'rrt_path_finder', 'rc': 2}
+[10.061964] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/ament_index/resource_index/package_run_dependencies/bridge_px4
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/ament_index/resource_index/parent_prefix_path/bridge_px4
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/environment/ament_prefix_path.sh
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/environment/ament_prefix_path.dsv
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/environment/path.sh
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/environment/path.dsv
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/local_setup.bash
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/local_setup.sh
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/local_setup.zsh
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/local_setup.dsv
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/package.dsv
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/ament_index/resource_index/packages/bridge_px4
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/cmake/bridge_px4Config.cmake
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/cmake/bridge_px4Config-version.cmake
+/px4_uxrce/t265_px4_bridge/install/bridge_px4/share/bridge_px4/package.xml

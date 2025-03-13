@@ -1,0 +1,167 @@
+[0.012s] Invoking command in '/px4_uxrce/camera_ws/build/librealsense2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/camera_ws/build/librealsense2 -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target fw[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target rs-embed[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target rsutils[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target realsense-file[0m
+[0.075s] [  3%] Built target libcurl
+[0.086s] [  4%] Built target rs-embed
+[0.090s] [  4%] Built target fw
+[0.113s] [ 15%] Built target realsense-file
+[0.113s] [ 15%] Built target rsutils
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target realsense2[0m
+[0.523s] [ 53%] Built target realsense2
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target rs-hello-realsense[0m
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target rs-callback[0m
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target rs-software-device[0m
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target rs-save-to-disk[0m
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target rs-multicam[0m
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target rs-measure[0m
+[0.543s] [35m[1mConsolidate compiler generated dependencies of target rs-capture[0m
+[0.547s] [35m[1mConsolidate compiler generated dependencies of target rs-align-advanced[0m
+[0.548s] [35m[1mConsolidate compiler generated dependencies of target realsense2-gl[0m
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target rs-pointcloud[0m
+[0.553s] [35m[1mConsolidate compiler generated dependencies of target rs-align[0m
+[0.556s] [35m[1mConsolidate compiler generated dependencies of target rs-sensor-control[0m
+[0.563s] [ 54%] Built target rs-callback
+[0.564s] [ 55%] Built target rs-hello-realsense
+[0.565s] [ 56%] Built target rs-measure
+[0.565s] [ 56%] Built target rs-multicam
+[0.565s] [ 56%] Built target rs-capture
+[0.565s] [ 57%] Built target rs-software-device
+[0.573s] [ 58%] Built target rs-save-to-disk
+[0.577s] [ 59%] Built target rs-align-advanced
+[0.578s] [ 60%] Built target rs-pointcloud
+[0.580s] [ 61%] Built target rs-align
+[0.582s] [35m[1mConsolidate compiler generated dependencies of target rs-color[0m
+[0.584s] [35m[1mConsolidate compiler generated dependencies of target rs-depth[0m
+[0.586s] [35m[1mConsolidate compiler generated dependencies of target rs-post-processing[0m
+[0.587s] [ 61%] Built target rs-sensor-control
+[0.591s] [35m[1mConsolidate compiler generated dependencies of target rs-record-playback[0m
+[0.591s] [35m[1mConsolidate compiler generated dependencies of target rs-distance[0m
+[0.591s] [35m[1mConsolidate compiler generated dependencies of target rs-motion[0m
+[0.592s] [35m[1mConsolidate compiler generated dependencies of target rs-convert[0m
+[0.593s] [35m[1mConsolidate compiler generated dependencies of target rs-enumerate-devices[0m
+[0.600s] [35m[1mConsolidate compiler generated dependencies of target rs-hdr[0m
+[0.604s] [ 63%] Built target rs-depth
+[0.604s] [ 66%] Built target realsense2-gl
+[0.608s] [35m[1mConsolidate compiler generated dependencies of target rs-terminal[0m
+[0.608s] [35m[1mConsolidate compiler generated dependencies of target rs-fw-logger[0m
+[0.612s] [ 67%] Built target rs-color
+[0.615s] [ 69%] Built target rs-post-processing
+[0.616s] [ 69%] Built target rs-distance
+[0.620s] [ 70%] Built target rs-motion
+[0.622s] [ 70%] Built target rs-enumerate-devices
+[0.623s] [ 72%] Built target rs-record-playback
+[0.623s] [ 73%] Built target rs-hdr
+[0.629s] [ 74%] Built target rs-convert
+[0.630s] [35m[1mConsolidate compiler generated dependencies of target rs-record[0m
+[0.630s] [ 75%] Built target rs-fw-logger
+[0.630s] [35m[1mConsolidate compiler generated dependencies of target rs-fw-update[0m
+[0.634s] [35m[1mConsolidate compiler generated dependencies of target rs-data-collect[0m
+[0.636s] [35m[1mConsolidate compiler generated dependencies of target rs-rosbag-inspector[0m
+[0.640s] [35m[1mConsolidate compiler generated dependencies of target rs-benchmark[0m
+[0.644s] [ 75%] Built target rs-terminal
+[0.648s] [35m[1mConsolidate compiler generated dependencies of target rs-align-gl[0m
+[0.650s] [ 75%] Built target rs-fw-update
+[0.652s] [ 75%] Built target rs-data-collect
+[0.652s] [ 75%] Built target rs-record
+[0.657s] [35m[1mConsolidate compiler generated dependencies of target rs-gl[0m
+[0.659s] [35m[1mConsolidate compiler generated dependencies of target realsense-viewer[0m
+[0.661s] [ 78%] Built target rs-rosbag-inspector
+[0.661s] [ 78%] Built target rs-benchmark
+[0.666s] [35m[1mConsolidate compiler generated dependencies of target rs-depth-quality[0m
+[0.666s] [ 79%] Built target rs-align-gl
+[0.671s] [ 80%] Built target rs-gl
+[0.740s] [ 90%] Built target realsense-viewer
+[0.746s] [100%] Built target rs-depth-quality
+[0.756s] Invoked command in '/px4_uxrce/camera_ws/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/camera_ws/build/librealsense2 -- -j12 -l12
+[0.758s] Invoking command in '/px4_uxrce/camera_ws/build/librealsense2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/camera_ws/build/librealsense2
+[0.764s] -- Install configuration: "Release"
+[0.764s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librealsense2.so.2.55.1
+[0.765s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librealsense2.so.2.55
+[0.765s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librealsense2.so
+[0.765s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2
+[0.765s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/rs.h
+[0.765s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/rs.hpp
+[0.765s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp
+[0.765s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_frame.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_export.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_serializable_device.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_sensor.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_device.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_internal.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_record_playback.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_options.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_pipeline.hpp
+[0.766s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_context.hpp
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_types.hpp
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/hpp/rs_processing.hpp
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.hpp
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/rsutil.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_internal.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_sensor.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_types.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_processing.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_option.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_context.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_device.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_pipeline.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_record_playback.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_config.h
+[0.767s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_advanced_mode_command.h
+[0.768s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/h/rs_frame.h
+[0.768s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2/rs_advanced_mode.h
+[0.768s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets.cmake
+[0.768s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2/realsense2Targets-release.cmake
+[0.768s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2/realsense2Config.cmake
+[0.768s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2/realsense2ConfigVersion.cmake
+[0.768s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/pkgconfig/realsense2.pc
+[0.806s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librsutils.a
+[0.806s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librealsense-file.a
+[0.807s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librealsense2-gl.so.2.55.1
+[0.807s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librealsense2-gl.so.2.55
+[0.807s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/librealsense2-gl.so
+[0.807s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.h
+[0.808s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/include/librealsense2-gl/rs_processing_gl.hpp
+[0.808s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets.cmake
+[0.808s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glTargets-release.cmake
+[0.808s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfig.cmake
+[0.808s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/cmake/realsense2-gl/realsense2-glConfigVersion.cmake
+[0.808s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/pkgconfig/realsense2-gl.pc
+[0.841s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-hello-realsense
+[0.841s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-software-device
+[0.841s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-capture
+[0.842s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-callback
+[0.842s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-save-to-disk
+[0.843s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-multicam
+[0.843s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-pointcloud
+[0.843s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-align
+[0.844s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-align-gl
+[0.844s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-align-advanced
+[0.845s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-sensor-control
+[0.845s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-measure
+[0.846s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-depth
+[0.846s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-color
+[0.847s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-distance
+[0.847s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-post-processing
+[0.848s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-record-playback
+[0.848s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-motion
+[0.849s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-gl
+[0.849s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-hdr
+[0.850s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-convert
+[0.850s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-enumerate-devices
+[0.851s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-fw-logger
+[0.851s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-terminal
+[0.851s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-record
+[0.852s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-fw-update
+[0.852s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-embed
+[0.853s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-data-collect
+[0.853s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/realsense-viewer
+[0.853s] -- Up-to-date: /root/Documents/librealsense2/presets
+[0.854s] -- Up-to-date: /root/Documents/librealsense2/presets/sample.preset
+[0.854s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-depth-quality
+[0.855s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-rosbag-inspector
+[0.855s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/bin/rs-benchmark
+[0.856s] -- Up-to-date: /px4_uxrce/camera_ws/install/librealsense2/lib/libfw.a
+[0.858s] Invoked command in '/px4_uxrce/camera_ws/build/librealsense2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/camera_ws/build/librealsense2

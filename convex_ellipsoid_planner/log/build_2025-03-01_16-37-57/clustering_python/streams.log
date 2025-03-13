@@ -1,0 +1,22 @@
+[1.368s] Invoking command in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clustering_python build --build-base /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build install --record /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log --single-version-externally-managed install_data
+[1.646s] running egg_info
+[1.647s] writing ../../build/clustering_python/clustering_python.egg-info/PKG-INFO
+[1.647s] writing dependency_links to ../../build/clustering_python/clustering_python.egg-info/dependency_links.txt
+[1.647s] writing entry points to ../../build/clustering_python/clustering_python.egg-info/entry_points.txt
+[1.647s] writing requirements to ../../build/clustering_python/clustering_python.egg-info/requires.txt
+[1.648s] writing top-level names to ../../build/clustering_python/clustering_python.egg-info/top_level.txt
+[1.649s] reading manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+[1.650s] adding license file 'LICENSE'
+[1.651s] writing manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+[1.651s] running build
+[1.651s] running build_py
+[1.651s] running install
+[1.652s] running install_lib
+[1.654s] running install_data
+[1.654s] running install_egg_info
+[1.656s] removing '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python-0.0.0-py3.10.egg-info' (and everything under it)
+[1.657s] Copying ../../build/clustering_python/clustering_python.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python-0.0.0-py3.10.egg-info
+[1.657s] running install_scripts
+[1.681s] Installing bounding_box_node script to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/clustering_python
+[1.682s] writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log'
+[1.710s] Invoked command in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python' returned '0': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clustering_python build --build-base /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build install --record /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log --single-version-externally-managed install_data

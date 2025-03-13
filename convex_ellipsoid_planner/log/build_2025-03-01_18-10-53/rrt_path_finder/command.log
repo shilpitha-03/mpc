@@ -1,0 +1,2 @@
+Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder -- -j12 -l12
+Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder -- -j12 -l12

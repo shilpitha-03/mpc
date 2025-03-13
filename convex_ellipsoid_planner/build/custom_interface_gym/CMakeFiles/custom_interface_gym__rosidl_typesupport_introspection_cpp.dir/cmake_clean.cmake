@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/des_trajectory__type_support.cpp.o"
+  "CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/des_trajectory__type_support.cpp.o.d"
+  "CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/traj_msg__type_support.cpp.o"
+  "CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/traj_msg__type_support.cpp.o.d"
+  "CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/srv/detail/uav_control__type_support.cpp.o"
+  "CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/srv/detail/uav_control__type_support.cpp.o.d"
+  "libcustom_interface_gym__rosidl_typesupport_introspection_cpp.pdb"
+  "libcustom_interface_gym__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/des_trajectory__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/des_trajectory__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/traj_msg__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/traj_msg__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/custom_interface_gym/srv/detail/uav_control__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/custom_interface_gym/srv/detail/uav_control__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

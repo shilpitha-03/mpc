@@ -1,0 +1,9 @@
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/uninstall.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/t265_to_px4_bridge_uninstall.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/test.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/edit_cache.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/rebuild_cache.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/list_install_components.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/install.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/install/local.dir
+/px4_uxrce/t265_px4_bridge/build/t265_to_px4_bridge/CMakeFiles/install/strip.dir

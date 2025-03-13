@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:143 (message):
+  Unsupported ROS Distribution: humble
+
+[0m

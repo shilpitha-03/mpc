@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e0d5f7e7a8cdaf401f7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rrt_path_finder",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "new_replan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_replan-cc1f1864bf7178d7d7ae.json",
+					"name" : "new_replan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcd_manipulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcd_manipulation-30bbebc2752b5a855356.json",
+					"name" : "pcd_manipulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_transformer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_transformer-446def533c32b5f8f9d4.json",
+					"name" : "pointcloud_transformer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrt_node-6452a62915db3c7aa532.json",
+					"name" : "rrt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrt_node_px4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrt_node_px4-712937604d64128731bf.json",
+					"name" : "rrt_node_px4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrt_path_finder_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrt_path_finder_uninstall-ee0872c68cca2b6aa499.json",
+					"name" : "rrt_path_finder_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_node-e377086b6e3103a7c3b1.json",
+					"name" : "safe_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_server_px4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_server_px4-d3c66a83524643db2e30.json",
+					"name" : "trajectory_server_px4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-27358e9cb0ea72d92d56.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder",
+		"source" : "/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

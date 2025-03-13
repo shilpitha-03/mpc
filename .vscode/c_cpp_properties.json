@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include",
+                "/px4_uxrce/new/nmpc_px4_ros2_ws/install/**",
+                "/px4_uxrce/new/nmpc_px4_ros2_ws/src/**",
+                "/usr/include",
+                "/usr/local/include",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/rcl"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

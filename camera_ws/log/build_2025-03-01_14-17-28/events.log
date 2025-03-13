@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000206] (librealsense2) JobQueued: {'identifier': 'librealsense2', 'dependencies': OrderedDict()}
+[0.000246] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000274] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('librealsense2', '/px4_uxrce/camera_ws/install/librealsense2'), ('realsense2_camera_msgs', '/px4_uxrce/camera_ws/install/realsense2_camera_msgs')])}
+[0.000423] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/px4_uxrce/camera_ws/install/realsense2_camera_msgs')])}
+[0.000718] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.005973] (librealsense2) JobStarted: {'identifier': 'librealsense2'}
+[0.009271] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.009778] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/px4_uxrce/camera_ws/src/realsense-ros/realsense2_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/px4_uxrce/camera_ws/install/realsense2_camera_msgs'], 'cwd': '/px4_uxrce/camera_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/camera_ws/librealsense'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a0081380-b84e-40da-9446-1ac4c203c76f.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d29e6680-95b1-4042-90bd-cdd2e4fd9edd.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d29e6680-95b1-4042-90bd-cdd2e4fd9edd.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d29e6680-95b1-4042-90bd-cdd2e4fd9edd.sock'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/camera_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.014132] (librealsense2) JobProgress: {'identifier': 'librealsense2', 'progress': 'cmake'}
+[0.015136] (librealsense2) Command: {'cmd': ['/usr/bin/cmake', '/px4_uxrce/camera_ws/librealsense', '-DCMAKE_INSTALL_PREFIX=/px4_uxrce/camera_ws/install/librealsense2'], 'cwd': '/px4_uxrce/camera_ws/build/librealsense2', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/camera_ws/librealsense'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a0081380-b84e-40da-9446-1ac4c203c76f.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d29e6680-95b1-4042-90bd-cdd2e4fd9edd.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d29e6680-95b1-4042-90bd-cdd2e4fd9edd.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d29e6680-95b1-4042-90bd-cdd2e4fd9edd.sock'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/camera_ws/build/librealsense2'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.073532] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099654] (-) TimerEvent: {}
+[0.104880] (librealsense2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.139454] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.146724] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.152716] (librealsense2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.159156] (librealsense2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199766] (-) TimerEvent: {}
+[0.204063] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.213367] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.213619] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.213807] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.217189] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.231827] (librealsense2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.241520] (librealsense2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.241779] (librealsense2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.242402] (librealsense2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.245839] (librealsense2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.291023] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299863] (-) TimerEvent: {}
+[0.304188] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.304379] (librealsense2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.304490] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.304908] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.311260] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:27 (find_package):\n'}
+[0.311462] (realsense2_camera_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.311541] (realsense2_camera_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.311607] (realsense2_camera_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.311669] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.311730] (realsense2_camera_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.311792] (realsense2_camera_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.311882] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.311946] (realsense2_camera_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.312006] (realsense2_camera_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.312067] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.312127] (realsense2_camera_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.312188] (realsense2_camera_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.312247] (realsense2_camera_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.312307] (realsense2_camera_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.312365] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[0.312424] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.312494] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.312563] (realsense2_camera_msgs) StdoutLine: {'line': b'See also "/px4_uxrce/camera_ws/build/realsense2_camera_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.314740] (realsense2_camera_msgs) CommandEnded: {'returncode': 1}
+[0.319680] (librealsense2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.320063] (librealsense2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.320737] (librealsense2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.321934] (librealsense2) StdoutLine: {'line': b'-- Checking internet connection...\n'}
+[0.335753] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 1}
+[0.399969] (-) TimerEvent: {}
+[0.500313] (-) TimerEvent: {}
+[0.600677] (-) TimerEvent: {}
+[0.700996] (-) TimerEvent: {}
+[0.801423] (-) TimerEvent: {}
+[0.901759] (-) TimerEvent: {}
+[0.907585] (librealsense2) StdoutLine: {'line': b'-- Internet connection identified\n'}
+[0.911112] (librealsense2) StdoutLine: {'line': b'-- Info: REALSENSE_VERSION_STRING=2.55.1\n'}
+[0.911505] (librealsense2) StdoutLine: {'line': b'-- Setting Unix configurations\n'}
+[0.911674] (librealsense2) StdoutLine: {'line': b'-- No output directory set; using /px4_uxrce/camera_ws/build/librealsense2/Release/\n'}
+[0.918579] (librealsense2) StdoutLine: {'line': b'-- Building libcurl enabled\n'}
+[0.997469] (librealsense2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.002079] (librealsense2) StdoutLine: {'line': b'-- Performing Test SUPPORTS_CXX14\n'}
+[1.002319] (-) TimerEvent: {}
+[1.097493] (librealsense2) StdoutLine: {'line': b'-- Performing Test SUPPORTS_CXX14 - Success\n'}
+[1.098974] (librealsense2) StdoutLine: {'line': b'-- using RS2_USE_V4L2_BACKEND\n'}
+[1.102450] (-) TimerEvent: {}
+[1.103106] (librealsense2) StdoutLine: {'line': b'-- Found usb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.107262] (librealsense2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.107999] (librealsense2) StdoutLine: {'line': b"-- Checking for module 'libudev'\n"}
+[1.120614] (librealsense2) StdoutLine: {'line': b'--   Found libudev, version 249\n'}
+[1.149078] (librealsense2) StdoutLine: {'line': b'-- Found Udev: /usr/include  \n'}
+[1.156936] (librealsense2) StdoutLine: {'line': b'-- Fetching nlohmann/json...\n'}
+[1.202550] (-) TimerEvent: {}
+[1.302861] (-) TimerEvent: {}
+[1.346867] (librealsense2) StderrLine: {'line': b"Cloning into 'json'...\n"}
+[1.402979] (-) TimerEvent: {}
+[1.503327] (-) TimerEvent: {}
+[1.603632] (-) TimerEvent: {}
+[1.704032] (-) TimerEvent: {}
+[1.804404] (-) TimerEvent: {}
+[1.904740] (-) TimerEvent: {}
+[2.005145] (-) TimerEvent: {}
+[2.105572] (-) TimerEvent: {}
+[2.205897] (-) TimerEvent: {}
+[2.306217] (-) TimerEvent: {}
+[2.406495] (-) TimerEvent: {}
+[2.506809] (-) TimerEvent: {}
+[2.607137] (-) TimerEvent: {}
+[2.707493] (-) TimerEvent: {}
+[2.807801] (-) TimerEvent: {}
+[2.908113] (-) TimerEvent: {}
+[3.008451] (-) TimerEvent: {}
+[3.108781] (-) TimerEvent: {}
+[3.209092] (-) TimerEvent: {}
+[3.309461] (-) TimerEvent: {}
+[3.409828] (-) TimerEvent: {}
+[3.510366] (-) TimerEvent: {}
+[3.610940] (-) TimerEvent: {}
+[3.711246] (-) TimerEvent: {}
+[3.811559] (-) TimerEvent: {}
+[3.911841] (-) TimerEvent: {}
+[4.012156] (-) TimerEvent: {}
+[4.112517] (-) TimerEvent: {}
+[4.212847] (-) TimerEvent: {}
+[4.313136] (-) TimerEvent: {}
+[4.413484] (-) TimerEvent: {}
+[4.513808] (-) TimerEvent: {}
+[4.614115] (-) TimerEvent: {}
+[4.714478] (-) TimerEvent: {}
+[4.814785] (-) TimerEvent: {}
+[4.915108] (-) TimerEvent: {}
+[5.015422] (-) TimerEvent: {}
+[5.115799] (-) TimerEvent: {}
+[5.215892] (librealsense2) JobEnded: {'identifier': 'librealsense2', 'rc': 'SIGINT'}
+[5.216471] (-) TimerEvent: {}
+[5.226574] (realsense2_camera) JobSkipped: {'identifier': 'realsense2_camera'}
+[5.226691] (realsense2_description) JobSkipped: {'identifier': 'realsense2_description'}
+[5.226787] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym -- -j12 -l12
+Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym -- -j12 -l12
+Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym
+Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym

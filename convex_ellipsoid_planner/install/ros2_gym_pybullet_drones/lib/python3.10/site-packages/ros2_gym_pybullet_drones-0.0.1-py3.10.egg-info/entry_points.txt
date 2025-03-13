@@ -1,0 +1,11 @@
+[console_scripts]
+aviary_wrapper = ros2_gym_pybullet_drones.aviary_wrapper:main
+noisy_aviary = ros2_gym_pybullet_drones.noisy_aviary:main
+pcd_to_csv = ros2_gym_pybullet_drones.pcd_to_csv:main
+random_control = ros2_gym_pybullet_drones.random_control:main
+trajectory_generator = ros2_gym_pybullet_drones.trajectory_eg:main
+trajectory_tracker = ros2_gym_pybullet_drones.vision_trajectory_tracker:main
+vision_client = ros2_gym_pybullet_drones.vision_wrapper_client:main
+vision_wrapper = ros2_gym_pybullet_drones.vision_wrapper:main
+waypoint_eg = ros2_gym_pybullet_drones.waypoint_eg:main
+

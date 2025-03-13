@@ -1,0 +1,376 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0ed6c544f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0ed6c2beb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0ed6c2beb0>>, mixin_verb=('build',))
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.393s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.393s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.394s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/px4_uxrce/new/px4-offboard_ws'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extensions ['cmake', 'python']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'cmake'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'python'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extensions ['python_setup_py']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code) by extension 'python_setup_py'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_cost) by extension 'python_setup_py'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extensions ['python_setup_py']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(c_generated_code/multirotor_rate_model_model) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'cmake'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'python'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extensions ['python_setup_py']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc) by extension 'python_setup_py'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/mpc_msgs) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-mpc/mpc_msgs' with type 'ros.ament_cmake' and name 'mpc_msgs'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-mpc/px4_mpc) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-mpc/px4_mpc' with type 'ros.ament_python' and name 'px4_mpc'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4-offboard) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4-offboard' with type 'ros.ament_python' and name 'px4_offboard'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'cmake_args' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'cmake_target' from command line to 'None'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.474s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'mpc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.475s] DEBUG:colcon.colcon_core.verb:Building package 'mpc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/new/px4-offboard_ws/build/mpc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs', 'merge_install': False, 'path': '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/mpc_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.475s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.476s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/new/px4-offboard_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs', 'merge_install': False, 'path': '/px4_uxrce/new/px4-offboard_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.476s] Level 5:colcon.colcon_core.verb:set package 'px4_offboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.476s] DEBUG:colcon.colcon_core.verb:Building package 'px4_offboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/new/px4-offboard_ws/build/px4_offboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard', 'merge_install': False, 'path': '/px4_uxrce/new/px4-offboard_ws/src/px4-offboard', 'symlink_install': False, 'test_result_base': None}
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'cmake_target' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'cmake_clean_first' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'cmake_force_configure' from command line to 'False'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'ament_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.477s] Level 5:colcon.colcon_core.verb:set package 'px4_mpc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.477s] DEBUG:colcon.colcon_core.verb:Building package 'px4_mpc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/new/px4-offboard_ws/build/px4_mpc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc', 'merge_install': False, 'path': '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/px4_mpc', 'symlink_install': False, 'test_result_base': None}
+[0.478s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.479s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.479s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/new/px4-offboard_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.480s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/new/px4-offboard_ws/src/px4_msgs'
+[0.482s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/mpc_msgs' with build type 'ament_cmake'
+[0.489s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/mpc_msgs'
+[0.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/new/px4-offboard_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --build /px4_uxrce/new/px4-offboard_ws/build/px4_msgs -- -j12 -l12
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/new/px4-offboard_ws/build/mpc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --build /px4_uxrce/new/px4-offboard_ws/build/mpc_msgs -- -j12 -l12
+[1.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/new/px4-offboard_ws/build/mpc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --build /px4_uxrce/new/px4-offboard_ws/build/mpc_msgs -- -j12 -l12
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/new/px4-offboard_ws/build/mpc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --install /px4_uxrce/new/px4-offboard_ws/build/mpc_msgs
+[1.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_msgs)
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs' for CMake config files
+[1.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_msgs', 'cmake_prefix_path')
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/cmake_prefix_path.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/cmake_prefix_path.sh'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib'
+[1.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_msgs', 'ld_library_path_lib')
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/ld_library_path_lib.ps1'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/ld_library_path_lib.dsv'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/ld_library_path_lib.sh'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/bin'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib/pkgconfig/mpc_msgs.pc'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib/python3.10/site-packages'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.sh'
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/new/px4-offboard_ws/build/mpc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --install /px4_uxrce/new/px4-offboard_ws/build/mpc_msgs
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.zsh'
+[1.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/colcon-core/packages/mpc_msgs)
+[1.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc_msgs)
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs' for CMake module files
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs' for CMake config files
+[1.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_msgs', 'cmake_prefix_path')
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/cmake_prefix_path.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/cmake_prefix_path.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/cmake_prefix_path.sh'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib'
+[1.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc_msgs', 'ld_library_path_lib')
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/ld_library_path_lib.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/ld_library_path_lib.dsv'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/hook/ld_library_path_lib.sh'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/bin'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib/pkgconfig/mpc_msgs.pc'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib/python3.10/site-packages'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/bin'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.sh'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/mpc_msgs/package.zsh'
+[1.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/share/colcon-core/packages/mpc_msgs)
+[1.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/new/px4-offboard_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --build /px4_uxrce/new/px4-offboard_ws/build/px4_msgs -- -j12 -l12
+[1.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/new/px4-offboard_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --install /px4_uxrce/new/px4-offboard_ws/build/px4_msgs
+[2.333s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs' for CMake module files
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs' for CMake config files
+[2.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib'
+[2.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/bin'
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.355s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib/python3.10/site-packages'
+[2.355s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/bin'
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.357s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.360s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs' for CMake module files
+[2.362s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs' for CMake config files
+[2.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib'
+[2.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/bin'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib/python3.10/site-packages'
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/bin'
+[2.386s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.388s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[2.390s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[2.390s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.392s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/px4_uxrce/new/px4-offboard_ws/src/px4-offboard' with build type 'ament_python'
+[2.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'ament_prefix_path')
+[2.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.dsv'
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/hook/ament_prefix_path.sh'
+[2.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/new/px4-offboard_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard /usr/bin/cmake --install /px4_uxrce/new/px4-offboard_ws/build/px4_msgs
+[2.765s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/px4_uxrce/new/px4-offboard_ws/src/px4-offboard'
+[2.766s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/new/px4-offboard_ws/src/px4-offboard': LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[3.678s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard' for CMake module files
+[3.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/new/px4-offboard_ws/src/px4-offboard' returned '0': LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[3.679s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard' for CMake config files
+[3.679s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib'
+[3.679s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/bin'
+[3.679s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/pkgconfig/px4_offboard.pc'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages'
+[3.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_offboard', 'pythonpath')
+[3.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.ps1'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.dsv'
+[3.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/hook/pythonpath.sh'
+[3.682s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/bin'
+[3.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_offboard)
+[3.683s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/package.ps1'
+[3.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/package.dsv'
+[3.684s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/package.sh'
+[3.684s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/package.bash'
+[3.685s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/px4_offboard/package.zsh'
+[3.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/share/colcon-core/packages/px4_offboard)
+[3.685s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/px4_mpc' with build type 'ament_python'
+[3.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_mpc', 'ament_prefix_path')
+[3.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/hook/ament_prefix_path.ps1'
+[3.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/hook/ament_prefix_path.dsv'
+[3.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/hook/ament_prefix_path.sh'
+[3.688s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.688s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.091s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/px4_mpc'
+[4.091s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.091s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/px4_mpc': AMENT_PREFIX_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_offboard:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_mpc build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/install.log --single-version-externally-managed install_data
+[5.139s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc' for CMake module files
+[5.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/px4_mpc' returned '0': AMENT_PREFIX_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_offboard:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_mpc build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/install.log --single-version-externally-managed install_data
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc' for CMake config files
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib'
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/bin'
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/pkgconfig/px4_mpc.pc'
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages'
+[5.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_mpc', 'pythonpath')
+[5.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/hook/pythonpath.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/hook/pythonpath.dsv'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/hook/pythonpath.sh'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/bin'
+[5.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_mpc)
+[5.144s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/package.ps1'
+[5.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/package.dsv'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/package.sh'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/package.bash'
+[5.147s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc/package.zsh'
+[5.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/colcon-core/packages/px4_mpc)
+[5.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.149s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.156s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.157s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.160s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[5.160s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/new/px4-offboard_ws/install/local_setup.ps1'
+[5.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/new/px4-offboard_ws/install/_local_setup_util_ps1.py'
+[5.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/new/px4-offboard_ws/install/setup.ps1'
+[5.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/new/px4-offboard_ws/install/local_setup.sh'
+[5.169s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/new/px4-offboard_ws/install/_local_setup_util_sh.py'
+[5.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/new/px4-offboard_ws/install/setup.sh'
+[5.172s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/new/px4-offboard_ws/install/local_setup.bash'
+[5.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/new/px4-offboard_ws/install/setup.bash'
+[5.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/new/px4-offboard_ws/install/local_setup.zsh'
+[5.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/new/px4-offboard_ws/install/setup.zsh'

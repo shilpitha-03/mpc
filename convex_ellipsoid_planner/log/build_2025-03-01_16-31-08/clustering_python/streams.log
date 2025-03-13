@@ -1,0 +1,41 @@
+[1.279s] Invoking command in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clustering_python build --build-base /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build install --record /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log --single-version-externally-managed install_data
+[1.571s] running egg_info
+[1.572s] creating ../../build/clustering_python/clustering_python.egg-info
+[1.572s] writing ../../build/clustering_python/clustering_python.egg-info/PKG-INFO
+[1.572s] writing dependency_links to ../../build/clustering_python/clustering_python.egg-info/dependency_links.txt
+[1.572s] writing entry points to ../../build/clustering_python/clustering_python.egg-info/entry_points.txt
+[1.573s] writing requirements to ../../build/clustering_python/clustering_python.egg-info/requires.txt
+[1.573s] writing top-level names to ../../build/clustering_python/clustering_python.egg-info/top_level.txt
+[1.573s] writing manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+[1.574s] reading manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+[1.574s] adding license file 'LICENSE'
+[1.575s] writing manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'
+[1.575s] running build
+[1.575s] running build_py
+[1.575s] creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build
+[1.575s] creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib
+[1.575s] creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+[1.576s] copying clustering_python/clustering_node.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+[1.576s] copying clustering_python/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+[1.576s] copying clustering_python/utils.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python
+[1.576s] running install
+[1.576s] running install_lib
+[1.577s] creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+[1.577s] copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/clustering_node.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+[1.578s] copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+[1.578s] copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/utils.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python
+[1.578s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/clustering_node.py to clustering_node.cpython-310.pyc
+[1.580s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/__init__.py to __init__.cpython-310.pyc
+[1.581s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/utils.py to utils.cpython-310.pyc
+[1.583s] running install_data
+[1.584s] creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index
+[1.584s] creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index
+[1.584s] creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index/packages
+[1.584s] copying resource/clustering_python -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index/packages
+[1.584s] copying package.xml -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python
+[1.584s] running install_egg_info
+[1.587s] Copying ../../build/clustering_python/clustering_python.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python-0.0.0-py3.10.egg-info
+[1.588s] running install_scripts
+[1.616s] Installing bounding_box_node script to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/clustering_python
+[1.616s] writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log'
+[1.661s] Invoked command in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python' returned '0': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clustering_python build --build-base /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build install --record /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log --single-version-externally-managed install_data

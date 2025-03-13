@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (-) JobUnselected: {'identifier': 'bridge_px4'}
+[0.000362] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000409] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000488] (-) JobUnselected: {'identifier': 't265_to_px4_bridge'}
+[0.000512] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000537] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.010399] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.011168] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.011956] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_ros_com/lib:/px4_uxrce/t265_px4_bridge/install/px4_msgs/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber/lib:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-565b7a35-dbcb-4518-ae0d-66e07edb209b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a20ca253-e0df-4902-b517-a37c4538347d.sock'), ('AMENT_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_ros_com:/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/t265_px4_bridge/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/px4_uxrce/t265_px4_bridge/install/px4_ros_com/local/lib/python3.10/dist-packages:/px4_uxrce/t265_px4_bridge/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/px4_ros_com:/px4_uxrce/t265_px4_bridge/install/px4_msgs:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_pointcloud_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_guard_conditions:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors:/opt/ros/humble:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_wait_set:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_multithreaded_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_timer:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_subscriber:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_service:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_composition:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_server:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_action_client:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_cbg_executor:/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_async_client:/px4_uxrce/t265_px4_bridge/install/cpp_pubsub:/px4_uxrce/t265_px4_bridge/install/bridge_px4')]), 'shell': False}
+[0.036363] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099465] (-) TimerEvent: {}
+[0.185992] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199557] (-) TimerEvent: {}
+[0.216506] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.220453] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.227353] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.238694] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.252585] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.288890] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.291225] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299655] (-) TimerEvent: {}
+[0.398077] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399729] (-) TimerEvent: {}
+[0.448779] (cpp_pubsub) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.478216] (cpp_pubsub) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.481851] (cpp_pubsub) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.484995] (cpp_pubsub) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.486219] (cpp_pubsub) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.499820] (-) TimerEvent: {}
+[0.569108] (cpp_pubsub) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/px4_uxrce/t265_px4_bridge/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.599934] (-) TimerEvent: {}
+[0.657695] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.672789] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.679057] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /px4_uxrce/t265_px4_bridge/build/cpp_pubsub\n'}
+[0.700042] (-) TimerEvent: {}
+[0.701942] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.702162] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.723297] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.724998] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.800146] (-) TimerEvent: {}
+[0.900433] (-) TimerEvent: {}
+[1.000748] (-) TimerEvent: {}
+[1.101033] (-) TimerEvent: {}
+[1.201356] (-) TimerEvent: {}
+[1.301654] (-) TimerEvent: {}
+[1.401941] (-) TimerEvent: {}
+[1.502264] (-) TimerEvent: {}
+[1.602562] (-) TimerEvent: {}
+[1.702864] (-) TimerEvent: {}
+[1.803159] (-) TimerEvent: {}
+[1.903440] (-) TimerEvent: {}
+[2.003679] (-) TimerEvent: {}
+[2.103954] (-) TimerEvent: {}
+[2.204275] (-) TimerEvent: {}
+[2.304592] (-) TimerEvent: {}
+[2.404875] (-) TimerEvent: {}
+[2.505166] (-) TimerEvent: {}
+[2.605481] (-) TimerEvent: {}
+[2.705791] (-) TimerEvent: {}
+[2.806089] (-) TimerEvent: {}
+[2.906383] (-) TimerEvent: {}
+[3.006649] (-) TimerEvent: {}
+[3.106936] (-) TimerEvent: {}
+[3.207222] (-) TimerEvent: {}
+[3.294649] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOdomBridge::OdomBridge()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.295255] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.295563] (cpp_pubsub) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.295677] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.295782] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.295892] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.296005] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:1\x1b[m\x1b[K:\n'}
+[3.296142] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.296289] (cpp_pubsub) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.296432] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.296552] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.296671] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.296801] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.296951] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:15:5:\x1b[m\x1b[K   required from here\n'}
+[3.297063] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.297176] (cpp_pubsub) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.297282] (cpp_pubsub) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.297389] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.297502] (cpp_pubsub) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.297610] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.297758] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.297868] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:15:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.297982] (cpp_pubsub) StderrLine: {'line': b'   15 |     \x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.298090] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.298201] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.298317] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.298432] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:1\x1b[m\x1b[K:\n'}
+[3.298544] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.298711] (cpp_pubsub) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.298824] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.298964] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.299076] (cpp_pubsub) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.299194] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.299314] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:15:5:\x1b[m\x1b[K   required from here\n'}
+[3.299427] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.299544] (cpp_pubsub) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.299655] (cpp_pubsub) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.299765] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.299893] (cpp_pubsub) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.300010] (cpp_pubsub) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.300124] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.300240] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:15:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.300360] (cpp_pubsub) StderrLine: {'line': b'   15 |     \x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.300471] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.300582] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[3.300687] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.300795] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/px4_uxrce/t265_px4_bridge/src/cpp_pubsub/src/publisher_member_function.cpp:1\x1b[m\x1b[K:\n'}
+[3.300910] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.301026] (cpp_pubsub) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.301139] (cpp_pubsub) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.301254] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.301385] (cpp_pubsub) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[3.301499] (cpp_pubsub) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.301616] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.301736] (cpp_pubsub) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.301852] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.301982] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<px4_msgs::msg::VehicleOdometry_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.302100] (cpp_pubsub) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[3.302212] (cpp_pubsub) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.307307] (-) TimerEvent: {}
+[3.407574] (-) TimerEvent: {}
+[3.507837] (-) TimerEvent: {}
+[3.608124] (-) TimerEvent: {}
+[3.708430] (-) TimerEvent: {}
+[3.808694] (-) TimerEvent: {}
+[3.908955] (-) TimerEvent: {}
+[4.009243] (-) TimerEvent: {}
+[4.109538] (-) TimerEvent: {}
+[4.209859] (-) TimerEvent: {}
+[4.310105] (-) TimerEvent: {}
+[4.410343] (-) TimerEvent: {}
+[4.510578] (-) TimerEvent: {}
+[4.610816] (-) TimerEvent: {}
+[4.711046] (-) TimerEvent: {}
+[4.811296] (-) TimerEvent: {}
+[4.911549] (-) TimerEvent: {}
+[5.011824] (-) TimerEvent: {}
+[5.112094] (-) TimerEvent: {}
+[5.212358] (-) TimerEvent: {}
+[5.312613] (-) TimerEvent: {}
+[5.412881] (-) TimerEvent: {}
+[5.513147] (-) TimerEvent: {}
+[5.613402] (-) TimerEvent: {}
+[5.713642] (-) TimerEvent: {}
+[5.813882] (-) TimerEvent: {}
+[5.839951] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[5.840232] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[5.840378] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.842457] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[5.854714] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[5.865209] (-) EventReactorShutdown: {}

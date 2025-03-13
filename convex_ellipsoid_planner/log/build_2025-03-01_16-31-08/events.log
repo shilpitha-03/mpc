@@ -1,0 +1,539 @@
+[0.000000] (-) TimerEvent: {}
+[0.000564] (clustering_python) JobQueued: {'identifier': 'clustering_python', 'dependencies': OrderedDict()}
+[0.000631] (custom_interface_gym) JobQueued: {'identifier': 'custom_interface_gym', 'dependencies': OrderedDict()}
+[0.000726] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000754] (ros2_gym_pybullet_drones) JobQueued: {'identifier': 'ros2_gym_pybullet_drones', 'dependencies': OrderedDict()}
+[0.000782] (rrt_path_finder) JobQueued: {'identifier': 'rrt_path_finder', 'dependencies': OrderedDict()}
+[0.000830] (rrt_python_gym) JobQueued: {'identifier': 'rrt_python_gym', 'dependencies': OrderedDict()}
+[0.000858] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs')])}
+[0.001107] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.006378] (clustering_python) JobStarted: {'identifier': 'clustering_python'}
+[0.011010] (custom_interface_gym) JobStarted: {'identifier': 'custom_interface_gym'}
+[0.013709] (ros2_gym_pybullet_drones) JobStarted: {'identifier': 'ros2_gym_pybullet_drones'}
+[0.018406] (rrt_path_finder) JobStarted: {'identifier': 'rrt_path_finder'}
+[0.021718] (rrt_python_gym) JobStarted: {'identifier': 'rrt_python_gym'}
+[0.029874] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.030464] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/px4_uxrce/convex_ellipsoid_planner/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/build/px4_msgs', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/convex_ellipsoid_planner/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-949ffd9b-0664-4b1e-9754-56f0d510c64c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/convex_ellipsoid_planner/build/px4_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099637] (-) TimerEvent: {}
+[0.199974] (-) TimerEvent: {}
+[0.292449] (custom_interface_gym) JobProgress: {'identifier': 'custom_interface_gym', 'progress': 'cmake'}
+[0.292921] (custom_interface_gym) Command: {'cmd': ['/usr/bin/cmake', '/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym', '-DCMAKE_INSTALL_PREFIX=/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/convex_ellipsoid_planner/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-949ffd9b-0664-4b1e-9754-56f0d510c64c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.300069] (-) TimerEvent: {}
+[0.400368] (-) TimerEvent: {}
+[0.500672] (-) TimerEvent: {}
+[0.563455] (rrt_path_finder) JobProgress: {'identifier': 'rrt_path_finder', 'progress': 'cmake'}
+[0.564056] (rrt_path_finder) Command: {'cmd': ['/usr/bin/cmake', '/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder', '-DCMAKE_INSTALL_PREFIX=/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/convex_ellipsoid_planner/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-949ffd9b-0664-4b1e-9754-56f0d510c64c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.600789] (-) TimerEvent: {}
+[0.701309] (-) TimerEvent: {}
+[0.801623] (-) TimerEvent: {}
+[0.867851] (custom_interface_gym) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.868530] (custom_interface_gym) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.869599] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.869851] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.870109] (custom_interface_gym) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.870554] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.870689] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.871010] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.871342] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.871992] (custom_interface_gym) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.872194] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.872490] (custom_interface_gym) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.872841] (custom_interface_gym) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.873001] (custom_interface_gym) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.873230] (custom_interface_gym) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.873393] (custom_interface_gym) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.873537] (custom_interface_gym) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.873687] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.875665] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.876210] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.876343] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.876459] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.876571] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.876682] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.876796] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.876910] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.877016] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.877119] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.877221] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.877320] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.877420] (px4_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.877521] (px4_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.877622] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.877720] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.877819] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.877919] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.878018] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.878116] (px4_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.878216] (rrt_path_finder) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.878343] (rrt_path_finder) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.878446] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.878545] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.878643] (rrt_path_finder) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.878741] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.878839] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.878936] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.879033] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.879132] (rrt_path_finder) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.879237] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.879344] (rrt_path_finder) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.879478] (rrt_path_finder) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.902291] (-) TimerEvent: {}
+[0.920089] (custom_interface_gym) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.977133] (custom_interface_gym) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.002383] (-) TimerEvent: {}
+[1.023783] (rrt_path_finder) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.053334] (custom_interface_gym) StdoutLine: {'line': b'-- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)\n'}
+[1.102485] (-) TimerEvent: {}
+[1.169691] (rrt_path_finder) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.202578] (-) TimerEvent: {}
+[1.235234] (rrt_path_finder) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.242603] (rrt_path_finder) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.255584] (rrt_path_finder) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.259580] (rrt_python_gym) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rrt_python_gym', 'build', '--build-base', '/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build', 'install', '--record', '/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym', 'env': {'HOSTNAME': 'drone-nuc', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/px4_uxrce/convex_ellipsoid_planner/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-949ffd9b-0664-4b1e-9754-56f0d510c64c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-09f9b5a7fd.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.276547] (rrt_path_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.283183] (clustering_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/clustering_python', 'build', '--build-base', '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build', 'install', '--record', '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python', 'env': {'HOSTNAME': 'drone-nuc', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/px4_uxrce/convex_ellipsoid_planner/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-949ffd9b-0664-4b1e-9754-56f0d510c64c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-09f9b5a7fd.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.287081] (ros2_gym_pybullet_drones) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_gym_pybullet_drones', 'build', '--build-base', '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build', 'install', '--record', '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones', 'env': {'HOSTNAME': 'drone-nuc', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/px4_uxrce/convex_ellipsoid_planner/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-949ffd9b-0664-4b1e-9754-56f0d510c64c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-09f9b5a7fd.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.303085] (-) TimerEvent: {}
+[1.303499] (rrt_path_finder) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.377408] (rrt_path_finder) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.381181] (rrt_path_finder) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.403631] (-) TimerEvent: {}
+[1.502394] (rrt_path_finder) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.503700] (-) TimerEvent: {}
+[1.536300] (rrt_python_gym) StdoutLine: {'line': b'running egg_info\n'}
+[1.536939] (rrt_python_gym) StdoutLine: {'line': b'creating ../../build/rrt_python_gym/rrt_python_gym.egg-info\n'}
+[1.537146] (rrt_python_gym) StdoutLine: {'line': b'writing ../../build/rrt_python_gym/rrt_python_gym.egg-info/PKG-INFO\n'}
+[1.537403] (rrt_python_gym) StdoutLine: {'line': b'writing dependency_links to ../../build/rrt_python_gym/rrt_python_gym.egg-info/dependency_links.txt\n'}
+[1.537581] (rrt_python_gym) StdoutLine: {'line': b'writing entry points to ../../build/rrt_python_gym/rrt_python_gym.egg-info/entry_points.txt\n'}
+[1.537773] (rrt_python_gym) StdoutLine: {'line': b'writing requirements to ../../build/rrt_python_gym/rrt_python_gym.egg-info/requires.txt\n'}
+[1.537884] (rrt_python_gym) StdoutLine: {'line': b'writing top-level names to ../../build/rrt_python_gym/rrt_python_gym.egg-info/top_level.txt\n'}
+[1.538027] (rrt_python_gym) StdoutLine: {'line': b"writing manifest file '../../build/rrt_python_gym/rrt_python_gym.egg-info/SOURCES.txt'\n"}
+[1.539541] (rrt_python_gym) StdoutLine: {'line': b"reading manifest file '../../build/rrt_python_gym/rrt_python_gym.egg-info/SOURCES.txt'\n"}
+[1.539850] (rrt_python_gym) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.540525] (rrt_python_gym) StdoutLine: {'line': b"writing manifest file '../../build/rrt_python_gym/rrt_python_gym.egg-info/SOURCES.txt'\n"}
+[1.540759] (rrt_python_gym) StdoutLine: {'line': b'running build\n'}
+[1.540895] (rrt_python_gym) StdoutLine: {'line': b'running build_py\n'}
+[1.541106] (rrt_python_gym) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build\n'}
+[1.541204] (rrt_python_gym) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib\n'}
+[1.541271] (rrt_python_gym) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym\n'}
+[1.541332] (rrt_python_gym) StdoutLine: {'line': b'copying rrt_python_gym/rrt_node.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym\n'}
+[1.541535] (rrt_python_gym) StdoutLine: {'line': b'copying rrt_python_gym/trajectory.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym\n'}
+[1.542002] (rrt_python_gym) StdoutLine: {'line': b'copying rrt_python_gym/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym\n'}
+[1.542173] (rrt_python_gym) StdoutLine: {'line': b'copying rrt_python_gym/corridor_finder.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym\n'}
+[1.542712] (rrt_python_gym) StdoutLine: {'line': b'copying rrt_python_gym/kdtree_c.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym\n'}
+[1.543109] (rrt_python_gym) StdoutLine: {'line': b'running install\n'}
+[1.543487] (rrt_python_gym) StdoutLine: {'line': b'running install_lib\n'}
+[1.544312] (rrt_python_gym) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym\n'}
+[1.544528] (rrt_python_gym) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/rrt_node.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym\n'}
+[1.544708] (rrt_python_gym) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/trajectory.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym\n'}
+[1.544858] (rrt_python_gym) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym\n'}
+[1.545030] (rrt_python_gym) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/corridor_finder.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym\n'}
+[1.545146] (rrt_python_gym) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/kdtree_c.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym\n'}
+[1.545567] (rrt_python_gym) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/rrt_node.py to rrt_node.cpython-310.pyc\n'}
+[1.546208] (rrt_path_finder) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.548727] (rrt_python_gym) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/trajectory.py to trajectory.cpython-310.pyc\n'}
+[1.551751] (rrt_python_gym) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/__init__.py to __init__.cpython-310.pyc\n'}
+[1.552254] (rrt_python_gym) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/corridor_finder.py to corridor_finder.cpython-310.pyc\n'}
+[1.557510] (rrt_python_gym) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/kdtree_c.py to kdtree_c.cpython-310.pyc\n'}
+[1.558637] (rrt_python_gym) StdoutLine: {'line': b'running install_data\n'}
+[1.558900] (rrt_python_gym) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index\n'}
+[1.559073] (rrt_python_gym) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index/resource_index\n'}
+[1.559227] (rrt_python_gym) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index/resource_index/packages\n'}
+[1.559409] (rrt_python_gym) StdoutLine: {'line': b'copying resource/rrt_python_gym -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index/resource_index/packages\n'}
+[1.559665] (rrt_python_gym) StdoutLine: {'line': b'copying package.xml -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym\n'}
+[1.559859] (rrt_python_gym) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.562278] (rrt_python_gym) StdoutLine: {'line': b'Copying ../../build/rrt_python_gym/rrt_python_gym.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym-0.0.0-py3.10.egg-info\n'}
+[1.563489] (rrt_python_gym) StdoutLine: {'line': b'running install_scripts\n'}
+[1.578096] (clustering_python) StdoutLine: {'line': b'running egg_info\n'}
+[1.578650] (clustering_python) StdoutLine: {'line': b'creating ../../build/clustering_python/clustering_python.egg-info\n'}
+[1.578837] (clustering_python) StdoutLine: {'line': b'writing ../../build/clustering_python/clustering_python.egg-info/PKG-INFO\n'}
+[1.578994] (clustering_python) StdoutLine: {'line': b'writing dependency_links to ../../build/clustering_python/clustering_python.egg-info/dependency_links.txt\n'}
+[1.579183] (clustering_python) StdoutLine: {'line': b'writing entry points to ../../build/clustering_python/clustering_python.egg-info/entry_points.txt\n'}
+[1.579313] (clustering_python) StdoutLine: {'line': b'writing requirements to ../../build/clustering_python/clustering_python.egg-info/requires.txt\n'}
+[1.579470] (clustering_python) StdoutLine: {'line': b'writing top-level names to ../../build/clustering_python/clustering_python.egg-info/top_level.txt\n'}
+[1.579590] (clustering_python) StdoutLine: {'line': b"writing manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'\n"}
+[1.580651] (clustering_python) StdoutLine: {'line': b"reading manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'\n"}
+[1.580828] (clustering_python) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.581402] (clustering_python) StdoutLine: {'line': b"writing manifest file '../../build/clustering_python/clustering_python.egg-info/SOURCES.txt'\n"}
+[1.581592] (clustering_python) StdoutLine: {'line': b'running build\n'}
+[1.581710] (clustering_python) StdoutLine: {'line': b'running build_py\n'}
+[1.581824] (clustering_python) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build\n'}
+[1.582017] (clustering_python) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib\n'}
+[1.582139] (clustering_python) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python\n'}
+[1.582250] (clustering_python) StdoutLine: {'line': b'copying clustering_python/clustering_node.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python\n'}
+[1.582357] (clustering_python) StdoutLine: {'line': b'copying clustering_python/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python\n'}
+[1.582722] (clustering_python) StdoutLine: {'line': b'copying clustering_python/utils.py -> /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python\n'}
+[1.582872] (clustering_python) StdoutLine: {'line': b'running install\n'}
+[1.583023] (clustering_python) StdoutLine: {'line': b'running install_lib\n'}
+[1.583871] (clustering_python) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python\n'}
+[1.584057] (clustering_python) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/clustering_node.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python\n'}
+[1.584239] (clustering_python) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python\n'}
+[1.584392] (clustering_python) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build/lib/clustering_python/utils.py -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python\n'}
+[1.584506] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running egg_info\n'}
+[1.584710] (clustering_python) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/clustering_node.py to clustering_node.cpython-310.pyc\n'}
+[1.586456] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info\n'}
+[1.586721] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'writing ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/PKG-INFO\n'}
+[1.586865] (clustering_python) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/__init__.py to __init__.cpython-310.pyc\n'}
+[1.587038] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/dependency_links.txt\n'}
+[1.587169] (clustering_python) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python/utils.py to utils.cpython-310.pyc\n'}
+[1.587376] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'writing entry points to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/entry_points.txt\n'}
+[1.587614] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'writing requirements to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/requires.txt\n'}
+[1.587734] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/top_level.txt\n'}
+[1.587845] (rrt_python_gym) StdoutLine: {'line': b'Installing rrt_planner script to /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/rrt_python_gym\n'}
+[1.587977] (ros2_gym_pybullet_drones) StdoutLine: {'line': b"writing manifest file '../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/SOURCES.txt'\n"}
+[1.588124] (rrt_python_gym) StdoutLine: {'line': b"writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/install.log'\n"}
+[1.589846] (clustering_python) StdoutLine: {'line': b'running install_data\n'}
+[1.590146] (clustering_python) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index\n'}
+[1.590367] (clustering_python) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index\n'}
+[1.590477] (clustering_python) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index/packages\n'}
+[1.590589] (clustering_python) StdoutLine: {'line': b'copying resource/clustering_python -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/ament_index/resource_index/packages\n'}
+[1.590701] (ros2_gym_pybullet_drones) StdoutLine: {'line': b"reading manifest file '../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/SOURCES.txt'\n"}
+[1.590812] (clustering_python) StdoutLine: {'line': b'copying package.xml -> /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python\n'}
+[1.590913] (clustering_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.591597] (ros2_gym_pybullet_drones) StdoutLine: {'line': b"writing manifest file '../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/SOURCES.txt'\n"}
+[1.591818] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running build\n'}
+[1.591932] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running build_py\n'}
+[1.592137] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build\n'}
+[1.592315] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib\n'}
+[1.592446] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.592548] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/trajectory.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.592722] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/waypoint_control_server.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.593046] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/waypoint_eg.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.593376] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/vision_trajectory_tracker.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.593750] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/aviary_wrapper.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.594038] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/random_control.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.594208] (clustering_python) StdoutLine: {'line': b'Copying ../../build/clustering_python/clustering_python.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages/clustering_python-0.0.0-py3.10.egg-info\n'}
+[1.594379] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.594533] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/waypoint_control.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.594688] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/pcd_to_csv.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.594994] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/joystick_control.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.595110] (clustering_python) StdoutLine: {'line': b'running install_scripts\n'}
+[1.595262] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/hover_control.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.595482] (custom_interface_gym) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.595613] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/vision_wrapper_client.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.598432] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/trajectory_eg.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.598698] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying ros2_gym_pybullet_drones/vision_wrapper.py -> /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones\n'}
+[1.598889] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running install\n'}
+[1.599044] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running install_lib\n'}
+[1.599212] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.599401] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/trajectory.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.599566] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/waypoint_control_server.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.599778] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/waypoint_eg.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.599936] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/vision_trajectory_tracker.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600113] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/aviary_wrapper.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600226] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/random_control.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600331] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600435] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/waypoint_control.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600538] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/pcd_to_csv.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600648] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/joystick_control.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600744] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/hover_control.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600888] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/vision_wrapper_client.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.600985] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/trajectory_eg.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.601078] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build/lib/ros2_gym_pybullet_drones/vision_wrapper.py -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones\n'}
+[1.601179] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/trajectory.py to trajectory.cpython-310.pyc\n'}
+[1.603798] (-) TimerEvent: {}
+[1.606730] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/waypoint_control_server.py to waypoint_control_server.cpython-310.pyc\n'}
+[1.607964] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/waypoint_eg.py to waypoint_eg.cpython-310.pyc\n'}
+[1.608452] (rrt_path_finder) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.610024] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/vision_trajectory_tracker.py to vision_trajectory_tracker.cpython-310.pyc\n'}
+[1.619628] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/aviary_wrapper.py to aviary_wrapper.cpython-310.pyc\n'}
+[1.619842] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/random_control.py to random_control.cpython-310.pyc\n'}
+[1.619978] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/__init__.py to __init__.cpython-310.pyc\n'}
+[1.620098] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/waypoint_control.py to waypoint_control.cpython-310.pyc\n'}
+[1.620220] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/pcd_to_csv.py to pcd_to_csv.cpython-310.pyc\n'}
+[1.620346] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/joystick_control.py to joystick_control.cpython-310.pyc\n'}
+[1.622764] (rrt_path_finder) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.622972] (clustering_python) StdoutLine: {'line': b'Installing bounding_box_node script to /px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/clustering_python\n'}
+[1.623100] (clustering_python) StdoutLine: {'line': b"writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log'\n"}
+[1.623208] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/hover_control.py to hover_control.cpython-310.pyc\n'}
+[1.623324] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/vision_wrapper_client.py to vision_wrapper_client.cpython-310.pyc\n'}
+[1.624629] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/trajectory_eg.py to trajectory_eg.cpython-310.pyc\n'}
+[1.626066] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones/vision_wrapper.py to vision_wrapper.cpython-310.pyc\n'}
+[1.626968] (rrt_python_gym) CommandEnded: {'returncode': 0}
+[1.627514] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running install_data\n'}
+[1.627790] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ament_index\n'}
+[1.627924] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ament_index/resource_index\n'}
+[1.630027] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'creating /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ament_index/resource_index/packages\n'}
+[1.630269] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying resource/ros2_gym_pybullet_drones -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ament_index/resource_index/packages\n'}
+[1.630400] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'copying package.xml -> /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones\n'}
+[1.630512] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.646154] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Copying ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones-0.0.1-py3.10.egg-info\n'}
+[1.646283] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'running install_scripts\n'}
+[1.646393] (rrt_python_gym) JobEnded: {'identifier': 'rrt_python_gym', 'rc': 0}
+[1.662534] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing aviary_wrapper script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.662833] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing noisy_aviary script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.663045] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing pcd_to_csv script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.663222] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing random_control script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.663447] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing trajectory_generator script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.663826] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing trajectory_tracker script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.663958] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing vision_client script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.664069] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing vision_wrapper script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.664177] (ros2_gym_pybullet_drones) StdoutLine: {'line': b'Installing waypoint_eg script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones\n'}
+[1.666909] (ros2_gym_pybullet_drones) StdoutLine: {'line': b"writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log'\n"}
+[1.667808] (clustering_python) CommandEnded: {'returncode': 0}
+[1.675492] (clustering_python) JobEnded: {'identifier': 'clustering_python', 'rc': 0}
+[1.700976] (ros2_gym_pybullet_drones) CommandEnded: {'returncode': 0}
+[1.704060] (-) TimerEvent: {}
+[1.710835] (ros2_gym_pybullet_drones) JobEnded: {'identifier': 'ros2_gym_pybullet_drones', 'rc': 0}
+[1.711962] (rrt_path_finder) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.712456] (rrt_path_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.780619] (rrt_path_finder) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.781698] (rrt_path_finder) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.804156] (-) TimerEvent: {}
+[1.853906] (rrt_path_finder) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.890863] (rrt_path_finder) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.904261] (-) TimerEvent: {}
+[1.918002] (rrt_path_finder) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.954203] (rrt_path_finder) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[2.004347] (-) TimerEvent: {}
+[2.004599] (custom_interface_gym) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.004786] (rrt_path_finder) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.018273] (rrt_path_finder) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[2.051623] (rrt_path_finder) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.051909] (rrt_path_finder) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.097151] (rrt_path_finder) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.104440] (-) TimerEvent: {}
+[2.111289] (rrt_path_finder) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.143774] (rrt_path_finder) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.144009] (rrt_path_finder) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[2.204533] (-) TimerEvent: {}
+[2.304830] (-) TimerEvent: {}
+[2.405122] (-) TimerEvent: {}
+[2.421495] (custom_interface_gym) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.439128] (custom_interface_gym) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.440490] (custom_interface_gym) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.459501] (custom_interface_gym) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.459766] (custom_interface_gym) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.459887] (custom_interface_gym) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.460001] (custom_interface_gym) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.476201] (custom_interface_gym) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.505215] (-) TimerEvent: {}
+[2.573474] (custom_interface_gym) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.600424] (custom_interface_gym) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.602659] (custom_interface_gym) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.604005] (custom_interface_gym) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.605283] (-) TimerEvent: {}
+[2.607466] (custom_interface_gym) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.664972] (custom_interface_gym) StdoutLine: {'line': b'-- Generating done\n'}
+[2.684497] (custom_interface_gym) StdoutLine: {'line': b'-- Build files have been written to: /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym\n'}
+[2.699044] (custom_interface_gym) CommandEnded: {'returncode': 0}
+[2.699827] (custom_interface_gym) JobProgress: {'identifier': 'custom_interface_gym', 'progress': 'build'}
+[2.701139] (custom_interface_gym) Command: {'cmd': ['/usr/bin/cmake', '--build', '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym', '--', '-j12', '-l12'], 'cwd': '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/convex_ellipsoid_planner/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-949ffd9b-0664-4b1e-9754-56f0d510c64c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-f1a7376f-b0bf-4539-a755-5283e51f5eef.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.705382] (-) TimerEvent: {}
+[2.740101] (custom_interface_gym) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.750460] (custom_interface_gym) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.757928] (custom_interface_gym) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_custom_interface_gym\n'}
+[2.805475] (-) TimerEvent: {}
+[2.906015] (-) TimerEvent: {}
+[2.987974] (custom_interface_gym) StdoutLine: {'line': b'running egg_info\n'}
+[2.988588] (custom_interface_gym) StdoutLine: {'line': b'creating custom_interface_gym.egg-info\n'}
+[2.988927] (custom_interface_gym) StdoutLine: {'line': b'writing custom_interface_gym.egg-info/PKG-INFO\n'}
+[2.989082] (custom_interface_gym) StdoutLine: {'line': b'writing dependency_links to custom_interface_gym.egg-info/dependency_links.txt\n'}
+[2.989275] (custom_interface_gym) StdoutLine: {'line': b'writing top-level names to custom_interface_gym.egg-info/top_level.txt\n'}
+[2.989399] (custom_interface_gym) StdoutLine: {'line': b"writing manifest file 'custom_interface_gym.egg-info/SOURCES.txt'\n"}
+[2.990758] (custom_interface_gym) StdoutLine: {'line': b"reading manifest file 'custom_interface_gym.egg-info/SOURCES.txt'\n"}
+[2.991259] (custom_interface_gym) StdoutLine: {'line': b"writing manifest file 'custom_interface_gym.egg-info/SOURCES.txt'\n"}
+[3.006104] (-) TimerEvent: {}
+[3.022614] (custom_interface_gym) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_custom_interface_gym_egg\n'}
+[3.106223] (-) TimerEvent: {}
+[3.158791] (rrt_path_finder) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[3.174471] (rrt_path_finder) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[3.206168] (rrt_path_finder) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[3.206314] (-) TimerEvent: {}
+[3.207958] (rrt_path_finder) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.257099] (rrt_path_finder) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.263088] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[3.264990] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[3.266920] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[3.269026] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.306416] (-) TimerEvent: {}
+[3.406690] (-) TimerEvent: {}
+[3.410750] (rrt_path_finder) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.418020] (rrt_path_finder) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.424233] (rrt_path_finder) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.506783] (-) TimerEvent: {}
+[3.571267] (rrt_path_finder) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.606880] (-) TimerEvent: {}
+[3.688211] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.706977] (-) TimerEvent: {}
+[3.724086] (rrt_path_finder) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.808465] (-) TimerEvent: {}
+[3.828350] (custom_interface_gym) StdoutLine: {'line': b'[  4%] Built target custom_interface_gym__cpp\n'}
+[3.839233] (custom_interface_gym) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.840168] (custom_interface_gym) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.840352] (custom_interface_gym) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.886457] (px4_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.905543] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.906861] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.908434] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.908668] (-) TimerEvent: {}
+[3.909865] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.911285] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.912735] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.913863] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.914853] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.916126] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.917591] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.919744] (px4_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.921807] (px4_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.923118] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.925016] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.927083] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.928929] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.930249] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.931646] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.933157] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.934668] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.936370] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.937765] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.939241] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.939955] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.940841] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.942206] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.943777] (rrt_path_finder) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.946937] (rrt_path_finder) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:333 (find_package):\n'}
+[3.947152] (rrt_path_finder) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[3.947269] (rrt_path_finder) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[3.947375] (rrt_path_finder) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.947476] (rrt_path_finder) StderrLine: {'line': b'\n'}
+[3.947877] (rrt_path_finder) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[3.948004] (rrt_path_finder) StderrLine: {'line': b'\n'}
+[3.948110] (rrt_path_finder) StderrLine: {'line': b'    /usr\n'}
+[3.948215] (rrt_path_finder) StderrLine: {'line': b'\n'}
+[3.948315] (rrt_path_finder) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[3.948414] (rrt_path_finder) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.948513] (rrt_path_finder) StderrLine: {'line': b'\x1b[0m\n'}
+[3.957313] (rrt_path_finder) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.958883] (px4_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.959315] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.959533] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.959743] (px4_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.979873] (custom_interface_gym) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_gym/msg/detail/traj_msg__functions.c.o\x1b[0m\n'}
+[3.980770] (custom_interface_gym) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_gym/srv/detail/uav_control__functions.c.o\x1b[0m\n'}
+[3.981460] (custom_interface_gym) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_gym/msg/detail/des_trajectory__functions.c.o\x1b[0m\n'}
+[3.996747] (px4_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.008780] (-) TimerEvent: {}
+[4.099492] (custom_interface_gym) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface_gym__rosidl_generator_c.so\x1b[0m\n'}
+[4.113076] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[4.113401] (-) TimerEvent: {}
+[4.113793] (px4_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[4.125765] (rrt_path_finder) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.12 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[4.136158] (rrt_path_finder) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.138629] (px4_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.152057] (custom_interface_gym) StdoutLine: {'line': b'[ 19%] Built target custom_interface_gym__rosidl_generator_c\n'}
+[4.158900] (rrt_path_finder) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.159158] (rrt_path_finder) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.163763] (custom_interface_gym) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.171558] (custom_interface_gym) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.175651] (custom_interface_gym) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.179257] (rrt_path_finder) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:339 (find_package):\n'}
+[4.179468] (rrt_path_finder) StderrLine: {'line': b'  By not providing "Findpx4_msgs.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.179648] (rrt_path_finder) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "px4_msgs",\n'}
+[4.179761] (rrt_path_finder) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[4.179857] (rrt_path_finder) StderrLine: {'line': b'\n'}
+[4.179950] (rrt_path_finder) StderrLine: {'line': b'  Could not find a package configuration file provided by "px4_msgs" with any\n'}
+[4.180047] (rrt_path_finder) StderrLine: {'line': b'  of the following names:\n'}
+[4.180143] (rrt_path_finder) StderrLine: {'line': b'\n'}
+[4.180238] (rrt_path_finder) StderrLine: {'line': b'    px4_msgsConfig.cmake\n'}
+[4.180335] (rrt_path_finder) StderrLine: {'line': b'    px4_msgs-config.cmake\n'}
+[4.180429] (rrt_path_finder) StderrLine: {'line': b'\n'}
+[4.180523] (rrt_path_finder) StderrLine: {'line': b'  Add the installation prefix of "px4_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[4.180615] (rrt_path_finder) StderrLine: {'line': b'  "px4_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[4.180704] (rrt_path_finder) StderrLine: {'line': b'  "px4_msgs" provides a separate development package or SDK, be sure it has\n'}
+[4.180795] (rrt_path_finder) StderrLine: {'line': b'  been installed.\n'}
+[4.180889] (rrt_path_finder) StderrLine: {'line': b'\n'}
+[4.180980] (rrt_path_finder) StderrLine: {'line': b'\x1b[0m\n'}
+[4.181073] (rrt_path_finder) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.181180] (rrt_path_finder) StdoutLine: {'line': b'See also "/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder/CMakeFiles/CMakeOutput.log".\n'}
+[4.211631] (rrt_path_finder) CommandEnded: {'returncode': 1}
+[4.217448] (-) TimerEvent: {}
+[4.228841] (rrt_path_finder) JobEnded: {'identifier': 'rrt_path_finder', 'rc': 1}
+[4.317544] (-) TimerEvent: {}
+[4.419628] (-) TimerEvent: {}
+[4.522191] (-) TimerEvent: {}
+[4.622488] (-) TimerEvent: {}
+[4.723597] (-) TimerEvent: {}
+[4.802388] (custom_interface_gym) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_gym/msg/detail/dds_fastrtps/traj_msg__type_support.cpp.o\x1b[0m\n'}
+[4.804566] (custom_interface_gym) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_gym/srv/detail/dds_fastrtps/uav_control__type_support.cpp.o\x1b[0m\n'}
+[4.823713] (custom_interface_gym) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_gym/msg/detail/dds_fastrtps/des_trajectory__type_support.cpp.o\x1b[0m\n'}
+[4.823913] (-) TimerEvent: {}
+[4.824053] (custom_interface_gym) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_gym/msg/traj_msg__type_support.cpp.o\x1b[0m\n'}
+[4.825022] (custom_interface_gym) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_gym/msg/des_trajectory__type_support.cpp.o\x1b[0m\n'}
+[4.828801] (custom_interface_gym) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_gym/srv/uav_control__type_support.cpp.o\x1b[0m\n'}
+[4.864477] (px4_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.924017] (-) TimerEvent: {}
+[4.956562] (px4_msgs) StdoutLine: {'line': b'-- Build files have been written to: /px4_uxrce/convex_ellipsoid_planner/build/px4_msgs\n'}
+[4.987365] (custom_interface_gym) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/srv/detail/uav_control__type_support.cpp.o\x1b[0m\n'}
+[4.988925] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[5.000081] (custom_interface_gym) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/des_trajectory__type_support.cpp.o\x1b[0m\n'}
+[5.019708] (custom_interface_gym) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_gym/msg/detail/traj_msg__type_support.cpp.o\x1b[0m\n'}
+[5.024118] (-) TimerEvent: {}
+[5.124561] (-) TimerEvent: {}
+[5.225495] (-) TimerEvent: {}
+[5.321589] (custom_interface_gym) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_gym/srv/uav_control__type_support.cpp.o\x1b[0m\n'}
+[5.334712] (custom_interface_gym) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_gym/msg/traj_msg__type_support.cpp.o\x1b[0m\n'}
+[5.334930] (-) TimerEvent: {}
+[5.371170] (custom_interface_gym) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_gym/srv/detail/uav_control__type_support_c.cpp.o\x1b[0m\n'}
+[5.435644] (-) TimerEvent: {}
+[5.451718] (custom_interface_gym) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_gym/srv/detail/uav_control__type_support.c.o\x1b[0m\n'}
+[5.455899] (custom_interface_gym) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_gym/msg/des_trajectory__type_support.cpp.o\x1b[0m\n'}
+[5.493328] (custom_interface_gym) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_gym/msg/detail/traj_msg__type_support_c.cpp.o\x1b[0m\n'}
+[5.504596] (custom_interface_gym) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_gym/msg/detail/traj_msg__type_support.c.o\x1b[0m\n'}
+[5.535752] (-) TimerEvent: {}
+[5.592895] (custom_interface_gym) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_gym__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.600509] (custom_interface_gym) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_gym__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.622548] (custom_interface_gym) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_gym/msg/detail/des_trajectory__type_support.c.o\x1b[0m\n'}
+[5.635850] (-) TimerEvent: {}
+[5.669827] (custom_interface_gym) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/custom_interface_gym__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_gym/msg/detail/des_trajectory__type_support_c.cpp.o\x1b[0m\n'}
+[5.712417] (custom_interface_gym) StdoutLine: {'line': b'[ 68%] Built target custom_interface_gym__rosidl_typesupport_c\n'}
+[5.735957] (-) TimerEvent: {}
+[5.750689] (custom_interface_gym) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libcustom_interface_gym__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.750983] (custom_interface_gym) StdoutLine: {'line': b'[ 70%] Built target custom_interface_gym__rosidl_typesupport_cpp\n'}
+[5.806425] (custom_interface_gym) StdoutLine: {'line': b'[ 70%] Built target custom_interface_gym__rosidl_typesupport_introspection_c\n'}
+[5.830280] (custom_interface_gym) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_gym__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.839644] (-) TimerEvent: {}
+[5.859297] (custom_interface_gym) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_gym__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.932164] (custom_interface_gym) StdoutLine: {'line': b'[ 74%] Built target custom_interface_gym__rosidl_typesupport_fastrtps_cpp\n'}
+[5.939746] (-) TimerEvent: {}
+[5.975694] (custom_interface_gym) StdoutLine: {'line': b'[ 74%] Built target custom_interface_gym__rosidl_typesupport_introspection_cpp\n'}
+[6.041182] (-) TimerEvent: {}
+[6.112255] (custom_interface_gym) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interface_gym__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.141294] (-) TimerEvent: {}
+[6.186957] (custom_interface_gym) StdoutLine: {'line': b'[ 76%] Built target custom_interface_gym__rosidl_typesupport_fastrtps_c\n'}
+[6.203882] (custom_interface_gym) StdoutLine: {'line': b'[ 76%] Built target custom_interface_gym\n'}
+[6.221230] (custom_interface_gym) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.241382] (-) TimerEvent: {}
+[6.341666] (-) TimerEvent: {}
+[6.441952] (-) TimerEvent: {}
+[6.542239] (-) TimerEvent: {}
+[6.642527] (-) TimerEvent: {}
+[6.742816] (-) TimerEvent: {}
+[6.843114] (-) TimerEvent: {}
+[6.943419] (-) TimerEvent: {}
+[7.045070] (-) TimerEvent: {}
+[7.145369] (-) TimerEvent: {}
+[7.245671] (-) TimerEvent: {}
+[7.345964] (-) TimerEvent: {}
+[7.447070] (custom_interface_gym) StdoutLine: {'line': b'[ 78%] Built target custom_interface_gym__py\n'}
+[7.447233] (-) TimerEvent: {}
+[7.465464] (custom_interface_gym) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_generator_py.dir/rosidl_generator_py/custom_interface_gym/msg/_traj_msg_s.c.o\x1b[0m\n'}
+[7.465666] (custom_interface_gym) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_generator_py.dir/rosidl_generator_py/custom_interface_gym/srv/_uav_control_s.c.o\x1b[0m\n'}
+[7.465762] (custom_interface_gym) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_generator_py.dir/rosidl_generator_py/custom_interface_gym/msg/_des_trajectory_s.c.o\x1b[0m\n'}
+[7.547354] (-) TimerEvent: {}
+[7.595378] (custom_interface_gym) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface_gym/libcustom_interface_gym__rosidl_generator_py.so\x1b[0m\n'}
+[7.632945] (custom_interface_gym) StdoutLine: {'line': b'[ 87%] Built target custom_interface_gym__rosidl_generator_py\n'}
+[7.647459] (-) TimerEvent: {}
+[7.649383] (custom_interface_gym) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface_gym/_custom_interface_gym_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.650018] (custom_interface_gym) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface_gym/_custom_interface_gym_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.650443] (custom_interface_gym) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_interface_gym__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface_gym/_custom_interface_gym_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.747565] (-) TimerEvent: {}
+[7.767657] (custom_interface_gym) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface_gym/custom_interface_gym_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.768364] (custom_interface_gym) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface_gym/custom_interface_gym_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.808095] (custom_interface_gym) StdoutLine: {'line': b'[ 97%] Built target custom_interface_gym__rosidl_typesupport_introspection_c__pyext\n'}
+[7.813163] (custom_interface_gym) StdoutLine: {'line': b'[ 97%] Built target custom_interface_gym__rosidl_typesupport_c__pyext\n'}
+[7.823822] (custom_interface_gym) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interface_gym/custom_interface_gym_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.847653] (-) TimerEvent: {}
+[7.865699] (custom_interface_gym) StdoutLine: {'line': b'[100%] Built target custom_interface_gym__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.878110] (custom_interface_gym) JobEnded: {'identifier': 'custom_interface_gym', 'rc': 'SIGINT'}
+[7.879292] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[7.879365] (-) EventReactorShutdown: {}

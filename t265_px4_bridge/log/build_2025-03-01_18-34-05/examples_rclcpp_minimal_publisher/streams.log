@@ -1,0 +1,96 @@
+[0.046s] Invoking command in '/px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /px4_uxrce/t265_px4_bridge/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.263s] -- The CXX compiler identification is GNU 11.4.0
+[0.275s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.384s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.384s] -- Detecting C compile features
+[0.385s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.530s] -- Detecting CXX compile features
+[0.542s] -- Detecting CXX compile features - done
+[0.542s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.765s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.998s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.061s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.068s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.087s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.214s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.217s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.384s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.422s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.506s] -- Looking for pthread.h
+[1.630s] -- Looking for pthread.h - found
+[1.631s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.753s] -- Found Threads: TRUE  
+[1.841s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.983s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.984s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.986s] -- Configured cppcheck include dirs: 
+[1.986s] -- Configured cppcheck exclude dirs and/or files: 
+[1.987s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.987s] -- Configured cpplint exclude dirs and/or files: 
+[1.988s] -- Added test 'lint_cmake' to check CMake code style
+[1.989s] -- Added test 'uncrustify' to check C / C++ code style
+[1.989s] -- Configured uncrustify additional arguments: 
+[1.989s] -- Added test 'xmllint' to check XML markup files
+[1.991s] -- Configuring done
+[2.023s] -- Generating done
+[2.037s] -- Build files have been written to: /px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher
+[2.076s] Invoked command in '/px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /px4_uxrce/t265_px4_bridge/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher
+[2.076s] Invoking command in '/px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[2.174s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[2.185s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.186s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[2.197s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[2.203s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[2.213s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[24.964s] [ 58%] [32m[1mLinking CXX executable publisher_lambda[0m
+[25.591s] [ 58%] Built target publisher_lambda
+[33.681s] [ 66%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[33.785s] [ 75%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[34.651s] [ 75%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[34.657s] [ 83%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[34.817s] [ 83%] Built target publisher_not_composable
+[35.363s] [ 91%] [32m[1mLinking CXX executable publisher_member_function[0m
+[35.363s] [100%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[35.751s] [100%] Built target publisher_wait_for_all_acked
+[36.180s] [100%] Built target publisher_member_function
+[36.273s] [100%] Built target publisher_member_function_with_type_adapter
+[37.264s] Invoked command in '/px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[37.264s] Invoking command in '/px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher
+[38.528s] -- Install configuration: ""
+[38.528s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[38.529s] -- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[38.529s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[38.529s] -- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[38.529s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[38.529s] -- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter" to ""
+[38.529s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[38.529s] -- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints" to ""
+[38.529s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[38.529s] -- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked" to ""
+[38.530s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[38.530s] -- Set runtime path of "/px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[38.530s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[38.530s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[38.530s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[38.530s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[38.530s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[38.530s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[38.531s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[38.531s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[38.531s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[38.531s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[38.531s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[38.531s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[38.531s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[38.532s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[38.532s] -- Installing: /px4_uxrce/t265_px4_bridge/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[40.044s] Invoked command in '/px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /px4_uxrce/t265_px4_bridge/build/examples_rclcpp_minimal_publisher

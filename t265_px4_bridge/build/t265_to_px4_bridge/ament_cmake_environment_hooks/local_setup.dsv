@@ -1,0 +1,2 @@
+source;share/t265_to_px4_bridge/environment/ament_prefix_path.sh
+source;share/t265_to_px4_bridge/environment/path.sh

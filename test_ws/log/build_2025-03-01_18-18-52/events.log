@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000520] (t265_to_px4_bridge) JobQueued: {'identifier': 't265_to_px4_bridge', 'dependencies': OrderedDict()}
+[0.000579] (t265_to_px4_bridge) JobStarted: {'identifier': 't265_to_px4_bridge'}
+[0.008529] (t265_to_px4_bridge) JobProgress: {'identifier': 't265_to_px4_bridge', 'progress': 'cmake'}
+[0.009285] (t265_to_px4_bridge) Command: {'cmd': ['/usr/bin/cmake', '/px4_uxrce/test_ws/src/t265_to_px4_bridge', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/px4_uxrce/test_ws/install/t265_to_px4_bridge'], 'cwd': '/px4_uxrce/test_ws/build/t265_to_px4_bridge', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('ROS_PACKAGE_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/share'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/test_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-984b2786-799f-49ad-ba2d-222f49fe1063.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-30c6b4de-ce5d-4b42-951f-e7776189d476.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/x86_64-linux-gnu/pkgconfig:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-30c6b4de-ce5d-4b42-951f-e7776189d476.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-30c6b4de-ce5d-4b42-951f-e7776189d476.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/test_ws/build/t265_to_px4_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge')]), 'shell': False}
+[0.058310] (t265_to_px4_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099671] (-) TimerEvent: {}
+[0.109474] (t265_to_px4_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.116299] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.172752] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184849] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.185171] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.185686] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.189882] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199801] (-) TimerEvent: {}
+[0.280184] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.290920] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.291228] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.291808] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.294617] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299910] (-) TimerEvent: {}
+[0.400236] (-) TimerEvent: {}
+[0.437634] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500335] (-) TimerEvent: {}
+[0.529943] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.573936] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.579049] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.588217] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.600437] (-) TimerEvent: {}
+[0.601262] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.619254] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.670566] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.673405] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700573] (-) TimerEvent: {}
+[0.753366] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.781958] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800663] (-) TimerEvent: {}
+[0.828758] (t265_to_px4_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.838548] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900765] (-) TimerEvent: {}
+[0.913543] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.914257] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000862] (-) TimerEvent: {}
+[1.001732] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.003981] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.081924] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.100983] (-) TimerEvent: {}
+[1.123003] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.134655] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.148556] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.149987] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.150102] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.201105] (-) TimerEvent: {}
+[1.301335] (-) TimerEvent: {}
+[1.309162] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.321168] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[1.322527] (t265_to_px4_bridge) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[1.322701] (t265_to_px4_bridge) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[1.322799] (t265_to_px4_bridge) StderrLine: {'line': b'\n'}
+[1.322889] (t265_to_px4_bridge) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[1.322984] (t265_to_px4_bridge) StderrLine: {'line': b'\n'}
+[1.323055] (t265_to_px4_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[1.326257] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Build files have been written to: /px4_uxrce/test_ws/build/t265_to_px4_bridge\n'}
+[1.334722] (t265_to_px4_bridge) CommandEnded: {'returncode': 0}
+[1.335228] (t265_to_px4_bridge) JobProgress: {'identifier': 't265_to_px4_bridge', 'progress': 'build'}
+[1.335919] (t265_to_px4_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/px4_uxrce/test_ws/build/t265_to_px4_bridge', '--', '-j12', '-l12'], 'cwd': '/px4_uxrce/test_ws/build/t265_to_px4_bridge', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('ROS_PACKAGE_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/share'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/test_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-984b2786-799f-49ad-ba2d-222f49fe1063.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-30c6b4de-ce5d-4b42-951f-e7776189d476.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/x86_64-linux-gnu/pkgconfig:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-30c6b4de-ce5d-4b42-951f-e7776189d476.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-30c6b4de-ce5d-4b42-951f-e7776189d476.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/test_ws/build/t265_to_px4_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge')]), 'shell': False}
+[1.378686] (t265_to_px4_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/t265_to_px4_bridge.dir/src/t265_to_px4_bridge.cpp.o\x1b[0m\n'}
+[1.401431] (-) TimerEvent: {}
+[1.501724] (-) TimerEvent: {}
+[1.602004] (-) TimerEvent: {}
+[1.702266] (-) TimerEvent: {}
+[1.802531] (-) TimerEvent: {}
+[1.902803] (-) TimerEvent: {}
+[2.003078] (-) TimerEvent: {}
+[2.103383] (-) TimerEvent: {}
+[2.203706] (-) TimerEvent: {}
+[2.304027] (-) TimerEvent: {}
+[2.404331] (-) TimerEvent: {}
+[2.504640] (-) TimerEvent: {}
+[2.604955] (-) TimerEvent: {}
+[2.705217] (-) TimerEvent: {}
+[2.805515] (-) TimerEvent: {}
+[2.905825] (-) TimerEvent: {}
+[3.006072] (-) TimerEvent: {}
+[3.106339] (-) TimerEvent: {}
+[3.206612] (-) TimerEvent: {}
+[3.306918] (-) TimerEvent: {}
+[3.407230] (-) TimerEvent: {}
+[3.507563] (-) TimerEvent: {}
+[3.607884] (-) TimerEvent: {}
+[3.708197] (-) TimerEvent: {}
+[3.808499] (-) TimerEvent: {}
+[3.908802] (-) TimerEvent: {}
+[4.009106] (-) TimerEvent: {}
+[4.109386] (-) TimerEvent: {}
+[4.209690] (-) TimerEvent: {}
+[4.310011] (-) TimerEvent: {}
+[4.410291] (-) TimerEvent: {}
+[4.510577] (-) TimerEvent: {}
+[4.610832] (-) TimerEvent: {}
+[4.711101] (-) TimerEvent: {}
+[4.811406] (-) TimerEvent: {}
+[4.911679] (-) TimerEvent: {}
+[5.011957] (-) TimerEvent: {}
+[5.112239] (-) TimerEvent: {}
+[5.212482] (-) TimerEvent: {}
+[5.312721] (-) TimerEvent: {}
+[5.412994] (-) TimerEvent: {}
+[5.513320] (-) TimerEvent: {}
+[5.613615] (-) TimerEvent: {}
+[5.713909] (-) TimerEvent: {}
+[5.814187] (-) TimerEvent: {}
+[5.914444] (-) TimerEvent: {}
+[6.014747] (-) TimerEvent: {}
+[6.115038] (-) TimerEvent: {}
+[6.215358] (-) TimerEvent: {}
+[6.315656] (-) TimerEvent: {}
+[6.415960] (-) TimerEvent: {}
+[6.516263] (-) TimerEvent: {}
+[6.616554] (-) TimerEvent: {}
+[6.716833] (-) TimerEvent: {}
+[6.817121] (-) TimerEvent: {}
+[6.917399] (-) TimerEvent: {}
+[7.017683] (-) TimerEvent: {}
+[7.117917] (-) TimerEvent: {}
+[7.218156] (-) TimerEvent: {}
+[7.318472] (-) TimerEvent: {}
+[7.418690] (-) TimerEvent: {}
+[7.519034] (-) TimerEvent: {}
+[7.619377] (-) TimerEvent: {}
+[7.719649] (-) TimerEvent: {}
+[7.819867] (-) TimerEvent: {}
+[7.920118] (-) TimerEvent: {}
+[8.020336] (-) TimerEvent: {}
+[8.120592] (-) TimerEvent: {}
+[8.220865] (-) TimerEvent: {}
+[8.321148] (-) TimerEvent: {}
+[8.421419] (-) TimerEvent: {}
+[8.521648] (-) TimerEvent: {}
+[8.621895] (-) TimerEvent: {}
+[8.722128] (-) TimerEvent: {}
+[8.822366] (-) TimerEvent: {}
+[8.922645] (-) TimerEvent: {}
+[9.022930] (-) TimerEvent: {}
+[9.123225] (-) TimerEvent: {}
+[9.223482] (-) TimerEvent: {}
+[9.323802] (-) TimerEvent: {}
+[9.424106] (-) TimerEvent: {}
+[9.524282] (t265_to_px4_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable t265_to_px4_bridge\x1b[0m\n'}
+[9.524443] (-) TimerEvent: {}
+[9.624642] (-) TimerEvent: {}
+[9.724903] (-) TimerEvent: {}
+[9.825184] (-) TimerEvent: {}
+[9.925422] (-) TimerEvent: {}
+[9.928915] (t265_to_px4_bridge) StdoutLine: {'line': b'[100%] Built target t265_to_px4_bridge\n'}
+[9.939639] (t265_to_px4_bridge) CommandEnded: {'returncode': 0}
+[9.940315] (t265_to_px4_bridge) JobProgress: {'identifier': 't265_to_px4_bridge', 'progress': 'install'}
+[9.947428] (t265_to_px4_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/px4_uxrce/test_ws/build/t265_to_px4_bridge'], 'cwd': '/px4_uxrce/test_ws/build/t265_to_px4_bridge', 'env': OrderedDict([('HOSTNAME', 'drone-nuc'), ('ROS_PACKAGE_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/share'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/px4_uxrce/test_ws/src'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-984b2786-799f-49ad-ba2d-222f49fe1063.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-30c6b4de-ce5d-4b42-951f-e7776189d476.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/x86_64-linux-gnu/pkgconfig:/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/vscode/vscode-server/bin/linux-x64/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-30c6b4de-ce5d-4b42-951f-e7776189d476.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-09f9b5a7fd.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-30c6b4de-ce5d-4b42-951f-e7776189d476.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/px4_uxrce/test_ws/build/t265_to_px4_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/px4_uxrce/t265_px4_bridge/install/t265_to_px4_bridge')]), 'shell': False}
+[9.954037] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.954297] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/lib/t265_to_px4_bridge/t265_to_px4_bridge\n'}
+[9.957094] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Set runtime path of "/px4_uxrce/test_ws/install/t265_to_px4_bridge/lib/t265_to_px4_bridge/t265_to_px4_bridge" to ""\n'}
+[9.957342] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/ament_index/resource_index/package_run_dependencies/t265_to_px4_bridge\n'}
+[9.957552] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/ament_index/resource_index/parent_prefix_path/t265_to_px4_bridge\n'}
+[9.957710] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/environment/ament_prefix_path.sh\n'}
+[9.957862] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/environment/ament_prefix_path.dsv\n'}
+[9.958113] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/environment/path.sh\n'}
+[9.958270] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/environment/path.dsv\n'}
+[9.958423] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/local_setup.bash\n'}
+[9.958577] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/local_setup.sh\n'}
+[9.958728] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/local_setup.zsh\n'}
+[9.958879] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/local_setup.dsv\n'}
+[9.959028] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/package.dsv\n'}
+[9.959182] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/ament_index/resource_index/packages/t265_to_px4_bridge\n'}
+[9.959364] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.959538] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/cmake/t265_to_px4_bridgeConfig.cmake\n'}
+[9.959691] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/cmake/t265_to_px4_bridgeConfig-version.cmake\n'}
+[9.959838] (t265_to_px4_bridge) StdoutLine: {'line': b'-- Installing: /px4_uxrce/test_ws/install/t265_to_px4_bridge/share/t265_to_px4_bridge/package.xml\n'}
+[9.961301] (t265_to_px4_bridge) CommandEnded: {'returncode': 0}
+[9.980376] (t265_to_px4_bridge) JobEnded: {'identifier': 't265_to_px4_bridge', 'rc': 0}
+[9.981076] (-) EventReactorShutdown: {}

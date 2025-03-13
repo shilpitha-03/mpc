@@ -1,0 +1,47 @@
+[1.239s] Invoking command in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_python_gym build --build-base /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build install --record /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/install.log --single-version-externally-managed install_data
+[1.515s] running egg_info
+[1.515s] creating ../../build/rrt_python_gym/rrt_python_gym.egg-info
+[1.515s] writing ../../build/rrt_python_gym/rrt_python_gym.egg-info/PKG-INFO
+[1.516s] writing dependency_links to ../../build/rrt_python_gym/rrt_python_gym.egg-info/dependency_links.txt
+[1.516s] writing entry points to ../../build/rrt_python_gym/rrt_python_gym.egg-info/entry_points.txt
+[1.516s] writing requirements to ../../build/rrt_python_gym/rrt_python_gym.egg-info/requires.txt
+[1.516s] writing top-level names to ../../build/rrt_python_gym/rrt_python_gym.egg-info/top_level.txt
+[1.516s] writing manifest file '../../build/rrt_python_gym/rrt_python_gym.egg-info/SOURCES.txt'
+[1.518s] reading manifest file '../../build/rrt_python_gym/rrt_python_gym.egg-info/SOURCES.txt'
+[1.518s] adding license file 'LICENSE'
+[1.519s] writing manifest file '../../build/rrt_python_gym/rrt_python_gym.egg-info/SOURCES.txt'
+[1.519s] running build
+[1.519s] running build_py
+[1.519s] creating /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build
+[1.519s] creating /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib
+[1.519s] creating /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym
+[1.520s] copying rrt_python_gym/rrt_node.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym
+[1.520s] copying rrt_python_gym/trajectory.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym
+[1.520s] copying rrt_python_gym/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym
+[1.520s] copying rrt_python_gym/corridor_finder.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym
+[1.521s] copying rrt_python_gym/kdtree_c.py -> /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym
+[1.521s] running install
+[1.522s] running install_lib
+[1.523s] creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym
+[1.523s] copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/rrt_node.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym
+[1.523s] copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/trajectory.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym
+[1.523s] copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/__init__.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym
+[1.523s] copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/corridor_finder.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym
+[1.523s] copying /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build/lib/rrt_python_gym/kdtree_c.py -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym
+[1.524s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/rrt_node.py to rrt_node.cpython-310.pyc
+[1.527s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/trajectory.py to trajectory.cpython-310.pyc
+[1.530s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/__init__.py to __init__.cpython-310.pyc
+[1.530s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/corridor_finder.py to corridor_finder.cpython-310.pyc
+[1.536s] byte-compiling /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym/kdtree_c.py to kdtree_c.cpython-310.pyc
+[1.537s] running install_data
+[1.537s] creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index
+[1.537s] creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index/resource_index
+[1.537s] creating /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index/resource_index/packages
+[1.538s] copying resource/rrt_python_gym -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/ament_index/resource_index/packages
+[1.538s] copying package.xml -> /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym
+[1.538s] running install_egg_info
+[1.540s] Copying ../../build/rrt_python_gym/rrt_python_gym.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages/rrt_python_gym-0.0.0-py3.10.egg-info
+[1.542s] running install_scripts
+[1.566s] Installing rrt_planner script to /px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/rrt_python_gym
+[1.566s] writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/install.log'
+[1.605s] Invoked command in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym' returned '0': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_python_gym build --build-base /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build install --record /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/install.log --single-version-externally-managed install_data

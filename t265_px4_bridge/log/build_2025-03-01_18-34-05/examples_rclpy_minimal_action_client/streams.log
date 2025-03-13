@@ -1,0 +1,49 @@
+[6.901s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data
+[8.152s] running egg_info
+[8.153s] creating ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info
+[8.154s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[8.154s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[8.156s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[8.157s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[8.157s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[8.157s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[8.157s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[8.159s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[8.160s] running build
+[8.160s] running build_py
+[8.160s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build
+[8.160s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib
+[8.160s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[8.160s] copying examples_rclpy_minimal_action_client/client_cancel.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[8.161s] copying examples_rclpy_minimal_action_client/client_not_composable.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[8.161s] copying examples_rclpy_minimal_action_client/client.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[8.161s] copying examples_rclpy_minimal_action_client/__init__.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[8.162s] copying examples_rclpy_minimal_action_client/client_asyncio.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[8.163s] running install
+[8.163s] running install_lib
+[8.163s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[8.163s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client_cancel.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[8.164s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client_not_composable.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[8.164s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[8.164s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/__init__.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[8.164s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client/client_asyncio.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client
+[8.164s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client_cancel.py to client_cancel.cpython-310.pyc
+[8.167s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client_not_composable.py to client_not_composable.cpython-310.pyc
+[8.167s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client.py to client.cpython-310.pyc
+[8.167s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/__init__.py to __init__.cpython-310.pyc
+[8.168s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client/client_asyncio.py to client_asyncio.cpython-310.pyc
+[8.169s] running install_data
+[8.170s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/share/ament_index
+[8.170s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index
+[8.170s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[8.170s] copying resource/examples_rclpy_minimal_action_client -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[8.170s] copying package.xml -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[8.170s] running install_egg_info
+[8.175s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.15.3-py3.10.egg-info
+[8.176s] running install_scripts
+[8.215s] Installing client script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[8.215s] Installing client_asyncio script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[8.215s] Installing client_cancel script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[8.215s] Installing client_not_composable script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[8.216s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/install.log'
+[9.533s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data

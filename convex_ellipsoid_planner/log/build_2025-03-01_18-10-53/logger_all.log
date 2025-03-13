@@ -1,0 +1,181 @@
+[0.103s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rrt_path_finder']
+[0.103s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rrt_path_finder'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6470d692a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6470d68c10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6470d68c10>>, mixin_verb=('build',))
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.221s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/px4_uxrce/convex_ellipsoid_planner'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clustering_python' with type 'ros.ament_python' and name 'clustering_python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interface_gym' with type 'ros.ament_cmake' and name 'custom_interface_gym'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_gym_pybullet_drones' with type 'ros.ament_python' and name 'ros2_gym_pybullet_drones'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrt_path_finder' with type 'ros.ament_cmake' and name 'rrt_path_finder'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrt_python_gym' with type 'ros.ament_python' and name 'rrt_python_gym'
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'clustering_python' in 'src/clustering_python'
+[0.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_interface_gym' in 'src/custom_interface_gym'
+[0.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'px4_msgs' in 'src/px4_msgs'
+[0.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_gym_pybullet_drones' in 'src/ros2_gym_pybullet_drones'
+[0.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rrt_python_gym' in 'src/rrt_python_gym'
+[0.268s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'px4_ros_com' in 'src/px4_ros_com'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'rrt_path_finder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder', 'symlink_install': False, 'test_result_base': None}
+[0.269s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder'
+[0.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder -- -j12 -l12
+[10.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder -- -j12 -l12
+[10.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrt_path_finder)
+[10.310s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder' for CMake module files
+[10.310s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder' for CMake config files
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/bin'
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/lib/pkgconfig/rrt_path_finder.pc'
+[10.313s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/lib/python3.10/site-packages'
+[10.314s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/bin'
+[10.314s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.ps1'
+[10.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.dsv'
+[10.317s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.sh'
+[10.318s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.bash'
+[10.319s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.zsh'
+[10.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/colcon-core/packages/rrt_path_finder)
+[10.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[10.331s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.339s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.339s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.339s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.341s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[10.341s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.ps1'
+[10.343s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/convex_ellipsoid_planner/install/_local_setup_util_ps1.py'
+[10.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.ps1'
+[10.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.sh'
+[10.347s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/convex_ellipsoid_planner/install/_local_setup_util_sh.py'
+[10.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.sh'
+[10.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.bash'
+[10.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.bash'
+[10.351s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.zsh'
+[10.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.zsh'

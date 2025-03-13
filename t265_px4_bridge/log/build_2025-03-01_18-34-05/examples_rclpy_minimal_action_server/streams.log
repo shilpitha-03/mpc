@@ -1,0 +1,53 @@
+[9.406s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[10.224s] running egg_info
+[10.226s] creating ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info
+[10.229s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[10.231s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[10.232s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[10.234s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[10.234s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[10.236s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[10.240s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[10.245s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[10.246s] running build
+[10.246s] running build_py
+[10.247s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build
+[10.247s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib
+[10.248s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[10.249s] copying examples_rclpy_minimal_action_server/server_queue_goals.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[10.250s] copying examples_rclpy_minimal_action_server/server_single_goal.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[10.251s] copying examples_rclpy_minimal_action_server/server_not_composable.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[10.252s] copying examples_rclpy_minimal_action_server/__init__.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[10.253s] copying examples_rclpy_minimal_action_server/server.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[10.255s] copying examples_rclpy_minimal_action_server/server_defer.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server
+[10.257s] running install
+[10.258s] running install_lib
+[10.262s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[10.263s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_queue_goals.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[10.265s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_single_goal.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[10.267s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_not_composable.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[10.270s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/__init__.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[10.271s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[10.273s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build/lib/examples_rclpy_minimal_action_server/server_defer.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server
+[10.278s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_queue_goals.py to server_queue_goals.cpython-310.pyc
+[10.282s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_single_goal.py to server_single_goal.cpython-310.pyc
+[10.285s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_not_composable.py to server_not_composable.cpython-310.pyc
+[10.288s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/__init__.py to __init__.cpython-310.pyc
+[10.291s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server.py to server.cpython-310.pyc
+[10.296s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server/server_defer.py to server_defer.cpython-310.pyc
+[10.300s] running install_data
+[10.300s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/share/ament_index
+[10.301s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[10.301s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[10.301s] copying resource/examples_rclpy_minimal_action_server -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[10.302s] copying package.xml -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[10.302s] running install_egg_info
+[10.312s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.15.3-py3.10.egg-info
+[10.331s] running install_scripts
+[10.379s] Installing server script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[10.381s] Installing server_defer script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[10.382s] Installing server_not_composable script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[10.383s] Installing server_queue_goals script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[10.384s] Installing server_single_goal script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[10.386s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/install.log'
+[13.096s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

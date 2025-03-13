@@ -1,0 +1,29 @@
+[1.315s] Invoking command in '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_gym_pybullet_drones build --build-base /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build install --record /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log --single-version-externally-managed install_data
+[1.609s] running egg_info
+[1.610s] writing ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/PKG-INFO
+[1.611s] writing dependency_links to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/dependency_links.txt
+[1.611s] writing entry points to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/entry_points.txt
+[1.611s] writing requirements to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/requires.txt
+[1.611s] writing top-level names to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/top_level.txt
+[1.613s] reading manifest file '../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/SOURCES.txt'
+[1.614s] writing manifest file '../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/SOURCES.txt'
+[1.614s] running build
+[1.614s] running build_py
+[1.615s] running install
+[1.615s] running install_lib
+[1.617s] running install_data
+[1.618s] running install_egg_info
+[1.620s] removing '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones-0.0.1-py3.10.egg-info' (and everything under it)
+[1.620s] Copying ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones-0.0.1-py3.10.egg-info
+[1.621s] running install_scripts
+[1.643s] Installing aviary_wrapper script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.643s] Installing noisy_aviary script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.644s] Installing pcd_to_csv script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.645s] Installing random_control script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.645s] Installing trajectory_generator script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.645s] Installing trajectory_tracker script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.645s] Installing vision_client script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.645s] Installing vision_wrapper script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.645s] Installing waypoint_eg script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+[1.645s] writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log'
+[1.678s] Invoked command in '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones' returned '0': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_gym_pybullet_drones build --build-base /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build install --record /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log --single-version-externally-managed install_data

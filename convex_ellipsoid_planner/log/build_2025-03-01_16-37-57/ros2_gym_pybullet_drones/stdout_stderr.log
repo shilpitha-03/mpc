@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/requires.txt
+writing top-level names to ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/top_level.txt
+reading manifest file '../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_gym_pybullet_drones/ros2_gym_pybullet_drones.egg-info to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages/ros2_gym_pybullet_drones-0.0.1-py3.10.egg-info
+running install_scripts
+Installing aviary_wrapper script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing noisy_aviary script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing pcd_to_csv script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing random_control script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing trajectory_generator script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing trajectory_tracker script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing vision_client script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing vision_wrapper script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+Installing waypoint_eg script to /px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/ros2_gym_pybullet_drones
+writing list of installed files to '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log'

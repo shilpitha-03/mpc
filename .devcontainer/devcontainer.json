@@ -1,0 +1,32 @@
+{
+  "name": "ROS Humble Desktop",
+  "build": {
+  "dockerfile": "Dockerfile",
+  "context": "."
+},
+
+  "runArgs": [
+    "--privileged",
+    "--network=host",
+    "--ipc=host",
+    "--pid=host",
+    "-e", "XDG_RUNTIME_DIR=/run/user/1000",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix",
+    "-e", "DISPLAY=:0",
+    "-e", "QT_X11_NO_MITSHM=1",
+    "-e", "LIBGL_ALWAYS_SOFTWARE=1",
+    "--device=/dev/bus/usb:/dev/bus/usb",
+    "--device=/dev/ttyACM0",
+    "--device=/dev/ttyUSB1", 
+    "--device=/dev/ttyUSB0",
+    "--entrypoint", "/bin/bash"
+  ],
+  "user":"root",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/${localWorkspaceFolderBasename}",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
+    "source=${localEnv:HOME}/Downloads/src,target=/px4_uxrce/new/px4_off_ws,type=bind"
+  ],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libx11-dev libglu1-mesa-dev libglfw3-dev"
+}

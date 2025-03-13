@@ -1,0 +1,27 @@
+[1.119s] Invoking command in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/px4_mpc': AMENT_PREFIX_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_offboard:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_mpc build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/install.log --single-version-externally-managed install_data
+[1.429s] running egg_info
+[1.429s] writing ../../../build/px4_mpc/px4_mpc.egg-info/PKG-INFO
+[1.430s] writing dependency_links to ../../../build/px4_mpc/px4_mpc.egg-info/dependency_links.txt
+[1.430s] writing entry points to ../../../build/px4_mpc/px4_mpc.egg-info/entry_points.txt
+[1.430s] writing requirements to ../../../build/px4_mpc/px4_mpc.egg-info/requires.txt
+[1.430s] writing top-level names to ../../../build/px4_mpc/px4_mpc.egg-info/top_level.txt
+[1.432s] reading manifest file '../../../build/px4_mpc/px4_mpc.egg-info/SOURCES.txt'
+[1.433s] writing manifest file '../../../build/px4_mpc/px4_mpc.egg-info/SOURCES.txt'
+[1.434s] running build
+[1.434s] running build_py
+[1.434s] copying px4_mpc/mpc_quadrotor.py -> /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build/lib/px4_mpc
+[1.436s] running install
+[1.436s] running install_lib
+[1.437s] copying /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build/lib/px4_mpc/mpc_quadrotor.py -> /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+[1.438s] byte-compiling /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/mpc_quadrotor.py to mpc_quadrotor.cpython-310.pyc
+[1.440s] running install_data
+[1.440s] running install_egg_info
+[1.442s] removing '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc-0.0.0-py3.10.egg-info' (and everything under it)
+[1.443s] Copying ../../../build/px4_mpc/px4_mpc.egg-info to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc-0.0.0-py3.10.egg-info
+[1.444s] running install_scripts
+[1.465s] Installing mpc_quadrotor script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+[1.465s] Installing mpc_spacecraft script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+[1.465s] Installing rviz_pos_marker script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+[1.466s] Installing test_setpoints script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+[1.466s] writing list of installed files to '/px4_uxrce/new/px4-offboard_ws/build/px4_mpc/install.log'
+[1.496s] Invoked command in '/px4_uxrce/new/px4-offboard_ws/src/px4-mpc/px4_mpc' returned '0': AMENT_PREFIX_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_offboard:/opt/ros/humble:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs LD_LIBRARY_PATH=/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/lib:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/new/px4-offboard_ws/src/acados/lib:/px4_uxrce/new/acados/lib PYTHONPATH=/px4_uxrce/new/px4-offboard_ws/build/px4_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_offboard/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages:/px4_uxrce/new/px4-offboard_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/px4_uxrce/new/px4-offboard_ws/install/mpc_msgs/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/px4_mpc build --build-base /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build install --record /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/install.log --single-version-externally-managed install_data

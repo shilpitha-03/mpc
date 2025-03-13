@@ -1,0 +1,4 @@
+source;share/bridge_px4/local_setup.bash
+source;share/bridge_px4/local_setup.dsv
+source;share/bridge_px4/local_setup.sh
+source;share/bridge_px4/local_setup.zsh

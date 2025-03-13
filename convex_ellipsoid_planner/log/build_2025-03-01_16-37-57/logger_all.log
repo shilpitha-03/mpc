@@ -1,0 +1,485 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f33b8ae2140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f33b8ae1ab0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f33b8ae1ab0>>, mixin_verb=('build',))
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.257s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.258s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.258s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/px4_uxrce/convex_ellipsoid_planner'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/clustering_python) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clustering_python' with type 'ros.ament_python' and name 'clustering_python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interface_gym) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interface_gym' with type 'ros.ament_cmake' and name 'custom_interface_gym'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gym_pybullet_drones) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_gym_pybullet_drones' with type 'ros.ament_python' and name 'ros2_gym_pybullet_drones'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_path_finder) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrt_path_finder' with type 'ros.ament_cmake' and name 'rrt_path_finder'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrt_python_gym) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrt_python_gym' with type 'ros.ament_python' and name 'rrt_python_gym'
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'clustering_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'clustering_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/clustering_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'custom_interface_gym' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interface_gym' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'ros2_gym_pybullet_drones' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_gym_pybullet_drones' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_path_finder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'rrt_path_finder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'rrt_python_gym' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'rrt_python_gym' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com', 'merge_install': False, 'path': '/px4_uxrce/convex_ellipsoid_planner/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.313s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/px4_msgs' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/convex_ellipsoid_planner/src/px4_msgs'
+[0.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python' with build type 'ament_python'
+[0.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('clustering_python', 'ament_prefix_path')
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/hook/ament_prefix_path.ps1'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/hook/ament_prefix_path.dsv'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/hook/ament_prefix_path.sh'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones' with build type 'ament_python'
+[0.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gym_pybullet_drones', 'ament_prefix_path')
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/hook/ament_prefix_path.ps1'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/hook/ament_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/hook/ament_prefix_path.sh'
+[0.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder' with build type 'ament_cmake'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym' with build type 'ament_python'
+[0.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrt_python_gym', 'ament_prefix_path')
+[0.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/hook/ament_prefix_path.ps1'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/hook/ament_prefix_path.dsv'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/hook/ament_prefix_path.sh'
+[0.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/px4_msgs -- -j12 -l12
+[0.618s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python'
+[0.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym -- -j12 -l12
+[0.895s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones'
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake /px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder -DCMAKE_INSTALL_PREFIX=/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder
+[1.165s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym'
+[1.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym -- -j12 -l12
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface_gym)
+[1.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym
+[1.294s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym' for CMake module files
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym' for CMake config files
+[1.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_gym', 'cmake_prefix_path')
+[1.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/cmake_prefix_path.ps1'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/cmake_prefix_path.dsv'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/cmake_prefix_path.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/lib'
+[1.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_gym', 'ld_library_path_lib')
+[1.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/ld_library_path_lib.ps1'
+[1.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/ld_library_path_lib.dsv'
+[1.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/ld_library_path_lib.sh'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/bin'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/lib/pkgconfig/custom_interface_gym.pc'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/lib/python3.10/site-packages'
+[1.303s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/bin'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.dsv'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.sh'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.bash'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.zsh'
+[1.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/colcon-core/packages/custom_interface_gym)
+[1.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interface_gym)
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym' for CMake module files
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym' for CMake config files
+[1.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_gym', 'cmake_prefix_path')
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/cmake_prefix_path.ps1'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/cmake_prefix_path.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/cmake_prefix_path.sh'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/lib'
+[1.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interface_gym', 'ld_library_path_lib')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/ld_library_path_lib.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/ld_library_path_lib.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/hook/ld_library_path_lib.sh'
+[1.324s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/bin'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/lib/pkgconfig/custom_interface_gym.pc'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/lib/python3.10/site-packages'
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/bin'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.sh'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.bash'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/custom_interface_gym/package.zsh'
+[1.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/custom_interface_gym/share/colcon-core/packages/custom_interface_gym)
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_gym_pybullet_drones build --build-base /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build install --record /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log --single-version-externally-managed install_data
+[1.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clustering_python build --build-base /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build install --record /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log --single-version-externally-managed install_data
+[1.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_python_gym build --build-base /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build install --record /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/install.log --single-version-externally-managed install_data
+[2.009s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones' for CMake module files
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/src/ros2_gym_pybullet_drones' returned '0': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_gym_pybullet_drones build --build-base /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/build install --record /px4_uxrce/convex_ellipsoid_planner/build/ros2_gym_pybullet_drones/install.log --single-version-externally-managed install_data
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones' for CMake config files
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/bin'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/pkgconfig/ros2_gym_pybullet_drones.pc'
+[2.012s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/lib/python3.10/site-packages'
+[2.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gym_pybullet_drones', 'pythonpath')
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/hook/pythonpath.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/hook/pythonpath.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/hook/pythonpath.sh'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_gym_pybullet_drones)
+[2.015s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/package.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/package.dsv'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/package.sh'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/package.bash'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/ros2_gym_pybullet_drones/package.zsh'
+[2.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones/share/colcon-core/packages/ros2_gym_pybullet_drones)
+[2.031s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python' for CMake module files
+[2.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/src/clustering_python' returned '0': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/clustering_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/clustering_python build --build-base /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/build install --record /px4_uxrce/convex_ellipsoid_planner/build/clustering_python/install.log --single-version-externally-managed install_data
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python' for CMake config files
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/bin'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/pkgconfig/clustering_python.pc'
+[2.033s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/lib/python3.10/site-packages'
+[2.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('clustering_python', 'pythonpath')
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/hook/pythonpath.ps1'
+[2.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/hook/pythonpath.dsv'
+[2.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/hook/pythonpath.sh'
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/bin'
+[2.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(clustering_python)
+[2.037s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/package.ps1'
+[2.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/package.dsv'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/package.sh'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/package.bash'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/clustering_python/package.zsh'
+[2.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/clustering_python/share/colcon-core/packages/clustering_python)
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym' for CMake module files
+[2.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/src/rrt_python_gym' returned '0': PYTHONPATH=/px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rrt_python_gym build --build-base /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/build install --record /px4_uxrce/convex_ellipsoid_planner/build/rrt_python_gym/install.log --single-version-externally-managed install_data
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym' for CMake config files
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/bin'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/pkgconfig/rrt_python_gym.pc'
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/lib/python3.10/site-packages'
+[2.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrt_python_gym', 'pythonpath')
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/hook/pythonpath.ps1'
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/hook/pythonpath.dsv'
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/hook/pythonpath.sh'
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/bin'
+[2.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrt_python_gym)
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/package.ps1'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/package.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/package.sh'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/package.bash'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/rrt_python_gym/package.zsh'
+[2.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym/share/colcon-core/packages/rrt_python_gym)
+[2.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/px4_msgs -- -j12 -l12
+[2.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/px4_msgs
+[2.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs' for CMake module files
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs' for CMake config files
+[2.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/lib'
+[2.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.700s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/bin'
+[2.700s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.700s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/lib/python3.10/site-packages'
+[2.701s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/bin'
+[2.701s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.sh'
+[2.703s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.bash'
+[2.704s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs' for CMake module files
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs' for CMake config files
+[2.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/lib'
+[2.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.729s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/bin'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/lib/python3.10/site-packages'
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/bin'
+[2.730s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.sh'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.bash'
+[2.733s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/px4_uxrce/convex_ellipsoid_planner/src/px4_ros_com' with build type 'ament_cmake'
+[2.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/px4_uxrce/convex_ellipsoid_planner/src/px4_ros_com'
+[2.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/px4_msgs
+[2.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake /px4_uxrce/convex_ellipsoid_planner/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com
+[3.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake /px4_uxrce/convex_ellipsoid_planner/src/rrt_path_finder -DCMAKE_INSTALL_PREFIX=/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder
+[3.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder -- -j12 -l12
+[4.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake /px4_uxrce/convex_ellipsoid_planner/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com
+[4.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com -- -j12 -l12
+[23.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com -- -j12 -l12
+[23.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com
+[23.949s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[23.949s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com' for CMake module files
+[23.950s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com' for CMake config files
+[23.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --install /px4_uxrce/convex_ellipsoid_planner/build/px4_ros_com
+[23.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[23.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[23.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[23.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[23.955s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/lib'
+[23.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[23.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[23.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[23.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[23.957s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/bin'
+[23.957s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[23.957s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/lib/python3.10/site-packages'
+[23.957s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/bin'
+[23.958s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[23.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[23.960s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.sh'
+[23.961s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.bash'
+[23.962s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[23.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[23.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[23.963s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com' for CMake module files
+[23.964s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com' for CMake config files
+[23.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[23.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[23.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[23.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[23.967s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/lib'
+[23.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[23.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[23.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[23.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[23.970s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/bin'
+[23.970s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[23.970s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/lib/python3.10/site-packages'
+[23.971s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/bin'
+[23.971s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[23.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[23.973s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.sh'
+[23.974s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.bash'
+[23.975s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[23.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[54.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/px4_uxrce/convex_ellipsoid_planner/install/rrt_python_gym:/px4_uxrce/convex_ellipsoid_planner/install/ros2_gym_pybullet_drones:/px4_uxrce/convex_ellipsoid_planner/install/clustering_python:/opt/ros/humble /usr/bin/cmake --build /px4_uxrce/convex_ellipsoid_planner/build/rrt_path_finder -- -j12 -l12
+[54.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrt_path_finder)
+[54.887s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder' for CMake module files
+[54.887s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder' for CMake config files
+[54.887s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/bin'
+[54.887s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/lib/pkgconfig/rrt_path_finder.pc'
+[54.888s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/lib/python3.10/site-packages'
+[54.888s] Level 1:colcon.colcon_core.environment:checking '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/bin'
+[54.888s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.ps1'
+[54.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.dsv'
+[54.889s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.sh'
+[54.889s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.bash'
+[54.890s] INFO:colcon.colcon_core.shell:Creating package script '/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/rrt_path_finder/package.zsh'
+[54.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/px4_uxrce/convex_ellipsoid_planner/install/rrt_path_finder/share/colcon-core/packages/rrt_path_finder)
+[54.900s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[54.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[54.901s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[54.901s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[54.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[54.907s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[54.907s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[54.907s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[54.909s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[54.909s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[54.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.ps1'
+[54.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/convex_ellipsoid_planner/install/_local_setup_util_ps1.py'
+[54.913s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.ps1'
+[54.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.sh'
+[54.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/px4_uxrce/convex_ellipsoid_planner/install/_local_setup_util_sh.py'
+[54.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.sh'
+[54.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.bash'
+[54.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.bash'
+[54.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/px4_uxrce/convex_ellipsoid_planner/install/local_setup.zsh'
+[54.920s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/px4_uxrce/convex_ellipsoid_planner/install/setup.zsh'

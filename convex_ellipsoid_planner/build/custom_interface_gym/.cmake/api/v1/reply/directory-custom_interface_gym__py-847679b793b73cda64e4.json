@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_interface_gym__py",
+		"source" : "/px4_uxrce/convex_ellipsoid_planner/build/custom_interface_gym/custom_interface_gym__py"
+	}
+}

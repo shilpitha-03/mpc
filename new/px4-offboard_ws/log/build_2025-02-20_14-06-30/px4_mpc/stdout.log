@@ -1,0 +1,26 @@
+running egg_info
+writing ../../../build/px4_mpc/px4_mpc.egg-info/PKG-INFO
+writing dependency_links to ../../../build/px4_mpc/px4_mpc.egg-info/dependency_links.txt
+writing entry points to ../../../build/px4_mpc/px4_mpc.egg-info/entry_points.txt
+writing requirements to ../../../build/px4_mpc/px4_mpc.egg-info/requires.txt
+writing top-level names to ../../../build/px4_mpc/px4_mpc.egg-info/top_level.txt
+reading manifest file '../../../build/px4_mpc/px4_mpc.egg-info/SOURCES.txt'
+writing manifest file '../../../build/px4_mpc/px4_mpc.egg-info/SOURCES.txt'
+running build
+running build_py
+copying px4_mpc/mpc_quadrotor.py -> /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build/lib/px4_mpc
+running install
+running install_lib
+copying /px4_uxrce/new/px4-offboard_ws/build/px4_mpc/build/lib/px4_mpc/mpc_quadrotor.py -> /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc
+byte-compiling /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/mpc_quadrotor.py to mpc_quadrotor.cpython-310.pyc
+running install_data
+copying px4_mpc/launch/mpc_quadrotor_launch.py -> /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/share/px4_mpc
+running install_egg_info
+removing '/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/px4_mpc/px4_mpc.egg-info to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mpc_quadrotor script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+Installing mpc_spacecraft script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+Installing rviz_pos_marker script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+Installing test_setpoints script to /px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/px4_mpc
+writing list of installed files to '/px4_uxrce/new/px4-offboard_ws/build/px4_mpc/install.log'

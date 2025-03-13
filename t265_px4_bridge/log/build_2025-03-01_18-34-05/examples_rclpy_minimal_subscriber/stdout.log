@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build
+creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib
+creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+copying examples_rclpy_minimal_subscriber/__init__.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+running install
+running install_lib
+creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-310.pyc
+byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-310.pyc
+byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-310.pyc
+running install_data
+creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/share/ament_index
+creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+copying resource/examples_rclpy_minimal_subscriber -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+running install_egg_info
+Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.3-py3.10.egg-info
+running install_scripts
+Installing subscriber_lambda script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+Installing subscriber_member_function script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+Installing subscriber_old_school script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_minimal_subscriber/install.log'

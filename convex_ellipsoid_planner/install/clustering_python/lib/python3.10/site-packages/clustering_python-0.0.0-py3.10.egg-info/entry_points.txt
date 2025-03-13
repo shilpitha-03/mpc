@@ -1,0 +1,3 @@
+[console_scripts]
+bounding_box_node = clustering_python.clustering_node:main
+

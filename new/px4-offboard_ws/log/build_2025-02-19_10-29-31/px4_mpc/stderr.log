@@ -1,0 +1,5 @@
+  File "/px4_uxrce/new/px4-offboard_ws/install/px4_mpc/lib/python3.10/site-packages/px4_mpc/mpc_quadrotor.py", line 783
+    Plot the predicted path
+         ^^^
+SyntaxError: invalid syntax
+

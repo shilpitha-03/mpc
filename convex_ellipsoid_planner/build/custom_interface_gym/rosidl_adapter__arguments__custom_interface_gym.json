@@ -1,0 +1,8 @@
+{
+  "package_name": "custom_interface_gym",
+  "non_idl_tuples": [
+    "/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym:srv/UavControl.srv",
+    "/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym:msg/TrajMsg.msg",
+    "/px4_uxrce/convex_ellipsoid_planner/src/custom_interface_gym:msg/DesTrajectory.msg"
+  ]
+}

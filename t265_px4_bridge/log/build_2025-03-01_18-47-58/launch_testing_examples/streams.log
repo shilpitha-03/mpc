@@ -1,0 +1,20 @@
+[3.042s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /px4_uxrce/t265_px4_bridge/build/launch_testing_examples/build install --record /px4_uxrce/t265_px4_bridge/build/launch_testing_examples/install.log --single-version-externally-managed install_data
+[3.379s] running egg_info
+[3.380s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[3.380s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[3.380s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[3.380s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[3.380s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[3.380s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[3.385s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[3.386s] running build
+[3.386s] running build_py
+[3.387s] running install
+[3.387s] running install_lib
+[3.387s] running install_data
+[3.387s] running install_egg_info
+[3.387s] removing '/px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.3-py3.10.egg-info' (and everything under it)
+[3.387s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.3-py3.10.egg-info
+[3.388s] running install_scripts
+[3.418s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/launch_testing_examples/install.log'
+[3.499s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /px4_uxrce/t265_px4_bridge/build/launch_testing_examples/build install --record /px4_uxrce/t265_px4_bridge/build/launch_testing_examples/install.log --single-version-externally-managed install_data

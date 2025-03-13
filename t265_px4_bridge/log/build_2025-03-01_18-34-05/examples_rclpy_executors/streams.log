@@ -1,0 +1,57 @@
+[6.971s] Invoking command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/executors': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
+[8.057s] running egg_info
+[8.057s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[8.058s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[8.059s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[8.061s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[8.062s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[8.063s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[8.070s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[8.088s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[8.096s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[8.097s] running build
+[8.098s] running build_py
+[8.099s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build
+[8.099s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib
+[8.100s] creating /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.100s] copying examples_rclpy_executors/callback_group.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.102s] copying examples_rclpy_executors/custom_callback_group.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.103s] copying examples_rclpy_executors/__init__.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.104s] copying examples_rclpy_executors/listener.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.106s] copying examples_rclpy_executors/composed.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.107s] copying examples_rclpy_executors/talker.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.108s] copying examples_rclpy_executors/custom_executor.py -> /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[8.121s] running install
+[8.122s] running install_lib
+[8.124s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.124s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.125s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.125s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.126s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.126s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.127s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.133s] copying /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[8.134s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[8.141s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[8.143s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[8.144s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[8.149s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[8.150s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[8.151s] byte-compiling /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[8.164s] running install_data
+[8.165s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/share/ament_index
+[8.166s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/share/ament_index/resource_index
+[8.166s] creating /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[8.167s] copying resource/examples_rclpy_executors -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[8.168s] copying package.xml -> /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/share/examples_rclpy_executors
+[8.170s] running install_egg_info
+[8.185s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info
+[8.204s] running install_scripts
+[8.337s] Installing callback_group script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.337s] Installing composed script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.337s] Installing custom_callback_group script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.338s] Installing custom_executor script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.338s] Installing listener script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.338s] Installing talker script to /px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[8.338s] writing list of installed files to '/px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/install.log'
+[9.602s] Invoked command in '/px4_uxrce/t265_px4_bridge/src/examples/rclpy/executors' returned '0': PYTHONPATH=/px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/px4_uxrce/t265_px4_bridge/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/build install --record /px4_uxrce/t265_px4_bridge/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data
